@@ -447,6 +447,10 @@
 
             </div>
 
+
+esto es una prueba a la verga
+
+
             <div class="Product-audio">
             <!--seccionar por cada 3 articulos-->
                 <div id= "sct-prd-audio" >
