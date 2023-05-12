@@ -1,0 +1,712 @@
+*{
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+html{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(red, rgb(140, 198, 140), blue);
+    margin: 0px;
+    padding: 0px;
+}
+
+a:hover{
+	color: #b52323;
+}
+
+a{
+	color:white;
+	text-decoration: none;
+    margin: 0px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.principal{
+    margin: 0px;
+    padding: 0px;
+	width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+	background-color: #000000;
+}
+
+    .header{
+        background-color: #000000;
+        height: 10%;
+        padding: 0px;
+        margin: 0px;
+    }
+        .usuario{
+            background-color: rgb(0, 0, 0);
+            display: flex;
+            margin: 0px;
+            padding: 0px;
+            height: auto;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+        }
+
+        .usuario a{
+            padding: 5px;
+            margin: 0px;
+            display: flex;
+            height: auto;
+            color: rgb(255, 255, 255);
+                        
+        }
+
+        .usuario a:hover{
+            color: #D60303;
+        }
+
+            .cntContact{
+                display: flex;
+                margin: 0px;
+                width: 60%;
+                padding: 0px;
+                align-items: center;
+                justify-content: space-between;
+
+            }
+                .correo{
+                    background-color: rgb(0, 0, 0);
+                    display: flex;
+                    height: 30px;
+                    margin: 0px;
+                    align-items: center;
+                    border-right: 3px solid white;
+                }
+                    .correo img{
+                        padding: 0px;
+                        margin: 0px;
+                        width: auto;
+                        height: 23px;;
+                    }
+      
+                
+                .numero{   
+                    width: auto;
+                    height: 30px;
+                    display: flex;
+                    margin: 0px;
+                    background-color: black;
+                    align-items: center;
+                    flex: auto;
+                     
+                }
+                    .numero img{
+                        padding: 0px;
+                        margin: 0px;
+                        width: auto;
+                        height: 20px;
+                    }
+                    .numero p {
+                        color: aliceblue;
+                        width: auto;
+                    }
+
+            .contacto{
+                background-color: black;
+                
+                height: 30px;
+                margin: 0px;
+                display: flex;
+                align-items: center;
+            }
+                .contacto img{
+                    padding: 0px;
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                    margin-left: 15px;
+                    margin-right: 15px;
+                    width: auto;
+                    height: 15px;
+                   
+                }
+
+            .cntRegister{
+                display: flex;
+                width: auto;
+                height: auto;
+                padding: 0px;
+                margin: 0px;
+                align-items: center;
+                justify-content: flex-end;
+                flex-wrap: wrap;
+            }
+                .cntRegister img{
+                    padding: 0px;
+                        margin: 0px;
+                        width: auto;
+                        height: 20px;
+                }
+                .registro{
+                    width: auto;
+                    height: 30px;
+                    display: flex;
+                    margin: 0px;
+                    background-color: black;
+                    border-right: 2px solid white;
+                    align-items: center;
+                }
+                    .registro p{
+                        color: white;
+                        width: auto;
+                    }
+
+                .inicioSec{
+                    width: auto;
+                    height: 30px;
+                    margin: 0px;
+                    display: flex;
+                    background-color: black;
+                    align-items: center;
+                }
+                    .inicioSec p{
+                        color: white;
+                        width: auto;
+                    }
+
+        .busqueda{
+            background-color: rgb(0 0 0);
+            height: auto;
+            display: flex;
+            width: auto;
+            margin: 0px;
+            border-top: 2px solid #3917bea8;
+            padding: 0%;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+            .logo{
+                background-color: #050101;
+                display: flex;
+                align-items: center;
+                width: auto;
+                margin: 0px;         
+                padding: 0px;
+            }
+                .logo img{
+                    width: 50px;
+                    margin: 0px;
+                }
+
+            .nameSite{
+                color: aliceblue;
+                margin: 0px;
+                font-size: inherit;
+                padding: 0px;
+            }
+
+            .brrBusqd{
+                background-color: #050101;
+                display: flex;
+                align-items: center;
+                margin: 1px;
+                flex: 1 1 auto;
+            }
+
+                .brrBusqd input{
+                    width: 500%;
+                    border-radius: 10px;
+                     border: 2px solid #1c7fab94;
+                }
+
+            .mnuPrin{
+                background-color: rgb(0, 0, 0);
+                margin: 0px;
+            }
+                .mnuPrin span{
+                    color: white;
+                    padding: 0px;
+                    margin: 0px;
+                }
+
+                .mnuPrin li{
+                    margin: 0%;
+                    padding: 0%;
+                }
+        
+                .mnuPrin a:hover{
+                    color: #D60303;
+                }
+
+                .mnuPrin nav{
+                    color: white;
+                    font-size: 90%;
+                    margin: 0px;
+                    padding: 0px;
+                }
+
+                .mnuPrin a:hover{
+                    color: #D60303;
+                }
+
+                /* en mnuPrin para todos los li, cuando pase el cursor, despliega
+                todos los divs o cajas que contenga adentro de la lista*/
+                .mnuPrin li:hover > div{
+                    display: block;
+                }
+               
+                /*Menu principal de Productos*/
+                .mnu-product{
+                    display: flex;
+                    list-style: none;
+                    flex-wrap: wrap;
+                    margin: 0px;
+                    padding: 0px;
+                }
+
+                    /*Submenus de cada producto*/
+                    .mnu-product div{
+                        background: #050101;
+                        position: absolute;
+                        margin: 0px;
+                        padding: 0px;
+                        display: none;
+                        z-index: 1;
+                    }
+
+                    .mnu-product div ul{
+                        list-style: none;
+                        display: flex;
+                        flex-direction: column;
+                    }
+                
+                
+                .carrito{
+                    background-color: #050101;
+                    width: auto;
+                    margin: 0px;
+                    margin-right: 7px;
+                    margin-left: 7px;
+                }
+
+                    .carrito img{
+                        width: 30px;
+                        margin: 0px;
+                    }
+            
+        .mnuCarruPri{
+            height: 400px;
+            overflow: hidden;
+            margin: 0px;
+            margin-bottom: 30px;
+            padding: 0px;
+        }
+            .itemsCarru{
+                height: 100%;
+                position: relative;
+                margin: 0px;
+                padding: 0px;
+
+            }
+
+            .itemsCarru img{
+                height: 100%;
+                width: 100%;
+                margin: 0px;
+                padding: 0px;
+            }
+            .trjCarru{
+                margin: 0px;
+                padding: 0px;
+                height: 100%;
+            }
+                #trj-1{
+                    background-color: rgba(68, 103, 218, 0.71);
+                }
+                #trj-2{
+                    background-color: rgba(93, 218, 68, 0.71);
+                }
+
+                #trj-3{
+                    background-color: #cc383864;
+                }
+
+            .flchCarru{
+                position: absolute;
+                margin: 0px;
+                height: 100%;
+                width: 100%;
+                padding: 20px;
+                top: 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .flchCarru i {
+                color: white;
+            }
+
+    .secundario{
+        display: flex;
+        justify-content: center;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+
+        .produPopulares{
+            display: flex;
+            position: relative;
+            width: 100%;
+            height: auto;
+            margin: 0px;
+            padding: 0px;
+            background-image: url(ImgIndex/popular-3.gif);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            flex-direction: column;
+        }
+
+        .tittle-Product-Popular{
+            display: flex;
+            justify-content: center;
+        }
+
+        .tittle-Product-Popular h2{
+            color: white;
+         /* position: absolute; */
+            text-align: center;
+            margin: 0px;
+            border-bottom: 2px solid #ffffff8c;
+            width: 50%;
+        }
+
+        .produPopulares img {
+            width: 100%;
+            height: 230px;
+            border-radius: 10%;
+            margin: 0%;
+            padding: 0%;
+        }
+            .Img-product{
+                width: 100%;
+            }
+
+            
+            .prd-Instruments{
+                background-color: rgba(35, 35, 209, 0.185);
+                /* position: absolute; */
+                width: 100%;
+                padding: 0px;
+                margin: 0px;
+                height: auto;
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                
+            }
+            .cont-product{
+                width: 20%;
+                display: flex;
+                height: auto;
+                border: 1px solid;
+                border-radius: 5%;
+                flex-direction: column;
+                color: #0ee9ff;
+                min-width: 200px;
+                background: #ffffff;
+                align-items: center;
+            }
+            .product-description{
+                background: #696f81a8;
+                width: 100%;
+                border-radius: 10%;
+            }
+            
+        
+    .Tercero{
+        background: #000000;
+        border: 2px solid #2039cf;
+        padding: 0px;
+        height: 500px;
+    }
+
+        .prom-logo-marcas{
+            background: rgb(0 0 0);
+            display: flex;
+            padding: 0px;
+            margin: 0px;
+            width: 100%;
+            height: 100%;
+            flex-wrap: wrap;
+        }
+
+        .prom-logo-marcas div{
+            background: rgba(74, 177, 74, 0.388);
+            border: 1px solid rgb(21, 20, 20);
+            width: 100%;
+            flex: 1;
+            min-width: 250px;
+            margin: 0px;
+        }
+
+    /*--SEPARADOR--*/
+    #separador-Audio{
+        border: 2px solid red; 
+        height: 70px;
+    }
+    /*--TITULO--*/
+    #tittle-audio{
+        background: #423c15;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        #tittle-audio h1{
+            color: white;
+        }
+
+    .Cuarto{
+        margin: 0px;
+        padding: 0px;
+        background: rgba(137, 158, 161, 0.559)
+    }
+        .mnuCarruSec{
+            border: 2px solid red;
+            width: 100%;
+            margin: 0px;
+            margin-bottom: 20px;
+            height: 500px;
+        }
+
+        .Product-audio{
+            border: 2px solid blue;
+            display: flex;
+            align-items: center;
+            padding: 0px;
+            margin: 0px;
+            flex-direction: column;
+        }
+
+
+            #sct-prd-audio{
+                border: .5px solid green;
+                width: 100%;
+                display: flex;
+                margin: 0px;
+                padding: 0px;
+                flex-wrap: wrap;
+            }
+
+            .cont-prdc{
+                height: 400px;
+                flex: 1;
+                border: .5px solid #0f0f0f;
+                margin: 0px;
+                background-color: white;
+                display: flex;
+                min-width: 200px;
+                padding: 0px;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            #sct-prd-audio img{
+                position: relative;
+                width: 200px;
+                height: 50%;
+                bottom: 15px;
+                margin: 0px;
+                padding: 0px;
+            }
+
+            #desc-img{
+                border: 2px solid #abafab59;
+                width: 231px;
+                height: 50px;
+                background: #80808094;
+                border-radius: 6px;
+            }
+
+            #dsc-prdc-img{
+                border: 2px solid red;
+            }
+        
+            .sect1-prduct{
+                border: 2px solid green;
+                width: 100%;
+                display: flex;
+                
+            }
+            .sect1-prduct div{
+                width: 30%;
+                height: 20px;
+                border: 2px solid yellow;
+
+            }
+
+            .sect2-products{
+                border: 2px solid green;
+                width: 100%;
+                display: flex;
+                
+            }
+            .sect2-products div{
+                width: 30%;
+                height: 20px;
+                border: 2px solid yellow;
+            }
+    .Quinto{
+        border: 2px solid red;
+        height: 400px;
+        margin: 0px;
+        display: flex;
+        padding: 0px;
+        flex-wrap: wrap;
+    }
+        .mnuCarruTr{
+            border: 1px solid yellow;
+            margin: 0px;
+            flex: 2;
+            min-width: 300px;
+        }
+
+        .Promo-prdc-desc{
+            border: 2px solid blue;
+            margin: 0px;
+            flex: 1.3;
+            min-width: 200px;
+        }
+
+            #txt-desc{
+                border: .5px solid greenyellow;
+                height: 80%;
+                
+
+            }
+
+            #btn-pag-desc{
+                border: 1px solid red;
+                height: 29px;
+                width: 25%;
+            }
+    .Sexto{
+        border: 2px solid red;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+        .prdc-desc-promo{
+            width: 100%;
+            height: auto;
+            margin: 0px;
+            padding: 0px;
+            border: 1px solid yellow;
+        }
+            #sct-prd-desc{
+                display: flex;
+                flex-wrap: wrap;
+                height: auto;
+                margin: 0px;
+                padding: 0px;
+                border: 0.5px solid blue;
+
+            }
+            #sct-prd-desc div{
+                flex: 1;
+                border: 2px solid orange;
+                min-width: 300px;
+                margin: 8px;
+                height: 300px;
+                padding:0px;
+            }
+footer{
+    background-color: rgba(133, 229, 227, 0.429);
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    margin:0px;
+
+}
+    .inf-pgn{
+        border: 1px solid red;
+        width: 60%;
+        display: flex;
+        height: auto;
+        flex: auto;
+        margin: 0px;
+        flex-wrap: wrap;
+    }
+
+    .inf-pgn div{
+        border: 1px solid yellow;
+        height: 270px;
+        min-width: 150px;
+        flex: 1;
+    }
+
+    .cotc-mnu{
+        height: 285px;
+        width: 40%;
+        margin: 0px;
+        flex: auto;
+        min-width: 350px;
+        border: 2px solid red;
+    }
+
+
+    /*COMPONENTES CARRUCEL*/
+    .carousel {
+        position: relative;
+        width: 100%;
+        margin: 0px;
+        height: 100%;
+        padding: 0px;
+    }
+    
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+        overflow: hidden;
+    }
+
+    .w-100 {
+        width: 100%!important;
+        height: 100%;
+        margin:  0px;
+        padding: 0px;
+    }
+    
+    .carousel-item {
+        position: relative;
+        display: none;
+        float: left;
+        height: 100%;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        margin-right: -100px;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transition: transform .6s ease-in-out;
+    }
+    
+     
+
+
+
+            
+
+
+

@@ -1,0 +1,94 @@
+*{
+    margin: 5px;
+    padding: 5px;
+}
+
+body{
+    background-color: gray;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    margin: 0%;
+    padding: 0%;
+}
+
+.Registrar{
+    background-color: rgb(236, 237, 236);
+    
+}
+.Registrar h1{
+    text-align: center;
+}
+    .header{
+        background-color: rgb(57, 57, 57);
+        display: flex;
+        justify-content: center;
+    }
+    
+        .Inicio{
+            background-color: rgb(224, 219, 219);
+            display: flex;
+
+        }
+        .Inicio img{
+            padding: 0px;
+            margin: 0px;
+            width: auto;
+            height: 25px;
+        }
+
+    .cntform{
+        background-color:rgb(236, 237, 236);
+        height: 400px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+    }
+        .form{
+            background-color: rgb(202, 197, 197);
+            width: auto;
+            border-radius: 20px;
+            height: fit-content;
+            
+        }
+        .form p{
+            color: white;
+        }
+
+        .correo{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .password{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .btn{
+            display: flex;
+            justify-content: center;
+            
+        }
+        /**/
+
+        #msgBoxVoid{
+            display: flex;
+            justify-content: center;
+            border-radius: 20px;
+            background-color: rgba(199, 80, 80, 0.712);
+        }
+        .alertDanger{
+            display: flex;
+            justify-content: center;
+            border-radius: 20px;
+            background-color: rgba(199, 80, 80, 0.712);
+        }
+        .alertDanger span{
+            color: rgb(76, 5, 5);
+        }
+
+    

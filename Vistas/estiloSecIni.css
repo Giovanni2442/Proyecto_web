@@ -1,0 +1,444 @@
+*{
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+html{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(red, rgb(140, 198, 140), blue);
+}
+
+a:hover{
+	color: #b52323;
+}
+
+a{
+	color:white;
+	text-decoration: none;
+    margin: 0px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.principal{
+    margin: 0px;
+	width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+	background-color: gray;
+}
+
+    .header{
+        background-color: #c6ee8259;
+        height: 10%;
+    }
+        .usuario{
+            background-color: rgb(0, 0, 0);
+            display: flex;
+            margin: 0px;
+            padding: 0px;
+            height: auto;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+        }
+
+        .usuario a{
+            padding: 5px;
+            margin: 0px;
+            display: flex;
+            height: auto;
+            color: rgb(255, 255, 255);
+                        
+        }
+
+        .usuario a:hover{
+            color: #D60303;
+        }
+
+            .cntContact{
+                display: flex;
+                margin: 0px;
+                width: 60%;
+                padding: 0px;
+                align-items: center;
+                justify-content: space-between;
+
+            }
+                .correo{
+                    background-color: rgb(0, 0, 0);
+                    display: flex;
+                    height: 30px;
+                    margin: 0px;
+                    align-items: center;
+                    border-right: 3px solid white;
+                }
+                    .correo img{
+                        padding: 0px;
+                        margin: 0px;
+                        width: auto;
+                        height: 23px;;
+                    }
+      
+                
+                .numero{   
+                    width: auto;
+                    height: 30px;
+                    display: flex;
+                    margin: 0px;
+                    background-color: black;
+                    align-items: center;
+                    flex: auto;
+                     
+                }
+                    .numero img{
+                        padding: 0px;
+                        margin: 0px;
+                        width: auto;
+                        height: 20px;
+                    }
+                    .numero p {
+                        color: aliceblue;
+                        width: auto;
+                    }
+
+            .contacto{
+                background-color: black;          
+                height: 30px;
+                margin: 0px;
+                display: flex;
+                align-items: center;
+            }
+                .contacto img{
+                    padding: 0px;
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                    margin-left: 15px;
+                    margin-right: 15px;
+                    width: auto;
+                    height: 15px;
+                   
+                }
+
+            .cntRegister{
+                display: flex;
+                width: 13%;
+                height: auto;
+                padding: 0px;
+                margin: 0px;
+                align-items: center;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+                .cntRegister img{
+                    padding: 0px;
+                    margin: 0px;
+                    width: auto;
+                    height: 20px;
+                }
+
+                .cntRegister span{
+                    color: rgb(249, 252, 255);
+                    margin: 0px;
+                    margin-left: 9px;
+                    margin-right: 9px;
+                }
+
+                #usserOptions{
+                    background-color: #17171fdb;
+                    position: absolute;
+                    right: 6%;
+                    top: 10%;
+                    margin: 0px;
+                    padding: 0px;
+                    display: none;
+                    z-index: 1;
+                    
+                }
+                    
+                    #usserOptions span{
+                        border: 2px solid yellow;
+                    }
+                    #usserOptions ul{
+                        list-style: none;
+                        margin: 0%;
+                        padding: 0%;
+                    }
+                    #usserOptions li{  
+                       margin: 0px;
+                       padding: 0px;
+                    }
+
+
+                    #usserOptions a{
+                        margin: 10px;
+                    }
+
+                .registro{
+                    width: auto;
+                    height: auto;
+                    display: flex;
+                    margin: 0px;
+                    margin-left: 9px;
+                    margin-right: 9px;
+                    padding: 0px;
+                    background-color: black;
+                    align-items: center;
+                    flex-direction: column;
+                }
+                    .registro p{
+                        color: white;
+                        width: auto;
+                    }
+
+                .inicioSec{
+                    width: auto;
+                    height: 30px;
+                    margin: 0px;
+                    display: flex;
+                    background-color: black;
+                    align-items: center;
+                }
+                    .inicioSec p{
+                        color: white;
+                        width: auto;
+                    }
+
+
+        .busqueda{
+            background-color: rgb(0 0 0);
+            height: auto;
+            display: flex;
+            width: auto;
+            margin: 0px;
+            border-top: 2px solid #9b3a578a;
+            padding: 0%;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+            .logo{
+                background-color: #050101;
+                display: flex;
+                align-items: center;
+                width: auto;
+                margin: 0px;         
+                padding: 0px;
+            }
+                .logo img{
+                    width: 50px;
+                    margin: 0px;
+                }
+
+            .nameSite{
+                color: aliceblue;
+                margin: 0px;
+                font-size: inherit;
+                padding: 0px;
+            }
+
+            .brrBusqd{
+                background-color: #050101;
+                display: flex;
+                align-items: center;
+                margin: 1px;
+                flex: 1 1 auto;
+            }
+
+                .brrBusqd input{
+                    width: 500%;
+                    border-radius: 10px;
+                     border: 2px solid #1c7fab94;
+                }
+
+            .mnuPrin{
+                background-color: rgb(0, 0, 0);
+                margin: 0px;
+            }
+                .mnuPrin span{
+                    color: white;
+                    padding: 0px;
+                    margin: 0px;
+                }
+
+            
+                .mnuPrin li{
+                    margin: 0%;
+                    padding: 0%;
+                }
+
+                .mnuPrin a:hover{
+                    color: #D60303;
+                }
+
+                .mnuPrin nav{
+                    color: white;
+                    font-size: 90%;
+                    margin: 0px;
+                    padding: 0px;
+                }
+
+                .mnuPrin a:hover{
+                    color: #D60303;
+                }
+
+                /* en mnuPrin para todos los li, cuando pase el cursor, despliega
+                todos los divs o cajas que contenga adentro de la lista*/
+                .mnuPrin li:hover > div{
+                    display: block;
+                }
+               
+                /*Menu principal de Productos*/
+                .mnu-product{
+                    display: flex;
+                    list-style: none;
+                    flex-wrap: wrap;
+                    margin: 0px;
+                    padding: 0px;
+                }
+
+                    /*Submenus de cada producto*/
+                    .mnu-product div{
+                        background: #050101;
+                        position: absolute;
+                        margin: 0px;
+                        padding: 0px;
+                        z-index: 1;
+                        display: none;
+                    }
+
+                    .mnu-product div ul{
+                        list-style: none;
+                        display: flex;
+                        flex-direction: column;
+                    }
+                
+                
+                .carrito{
+                    background-color: #050101;
+                    width: auto;
+                    margin: 0px;
+                    margin-right: 7px;
+                    margin-left: 7px;
+                }
+
+                    .carrito img{
+                        width: 30px;
+                        margin: 0px;
+                    }
+            
+                    .mnuCarruPri{
+                        height: 400px;
+                        overflow: hidden;
+                        margin: 0px;
+                        margin-top: 5px;
+                        padding: 0px;
+                    }
+                        .itemsCarru{
+                            height: 100%;
+                            position: relative;
+                            margin: 0px;
+                            padding: 0px;
+            
+                        }
+            
+                        .itemsCarru img{
+                            height: 100%;
+                            width: 100%;
+                            margin: 0px;
+                            padding: 0px;
+                        }
+                        .trjCarru{
+                            margin: 0px;
+                            padding: 0px;
+                            height: 100%;
+                        }
+                            #trj-1{
+                                background-color: rgba(68, 103, 218, 0.71);
+                            }
+                            #trj-2{
+                                background-color: rgba(93, 218, 68, 0.71);
+                            }
+            
+                            #trj-3{
+                                background-color: #cc383864;
+                            }
+            
+                        .flchCarru{
+                            position: absolute;
+                            margin: 0px;
+                            height: 100%;
+                            width: 100%;
+                            padding: 20px;
+                            top: 0;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                        }
+            
+                        .flchCarru i {
+                            color: white;
+                        }
+
+    .secundario{
+        display: flex;
+        justify-content: center;
+        height: 500px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .produPopulares{
+        display: flex;
+        position: relative;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        background-image: url(ImgIndex/Popular.gif);
+        background-color: rgba(215, 104, 104, 0.311);
+        flex-direction: column;
+    }
+
+    .produPopulares h2{
+        color: white;
+        /*position: absolute;*/
+        text-align: center;
+    }
+
+    .produPopulares img {
+        width: 100%;
+        height: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+        .prd-Instruments{
+            display: block;
+            background-color: rgba(35, 35, 209, 0.185);
+            /*position: absolute;*/
+            width: 100%;
+            padding: 0px;
+            margin: 0px;
+            height: fit-content;
+            border: 2px solid #b52323;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            
+        }
+        .prd-Instruments div{
+            border: 2px solid red;
+            width: 30%;
+        }
+
+        .Tercero{
+            background-color: green;
+            display: flex;
+            height: 300px;
+        }

@@ -1,0 +1,41 @@
+body {
+    background: gray;
+    
+}
+
+.cnt-cajs{
+    border: 2px solid red;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.cnt-cajs div{
+    flex: 1;
+    min-width: 176px;
+}
+
+.cnt-cajs img{
+    width: 30px;
+    height: 40px;
+}
+
+
+    .Caja1{
+        border: 2px solid red;
+        width: 200px;
+
+    }
+    .Caja2{
+        border: 2px solid red;
+        width: 200px;
+
+       
+    }
+
+    .Caja3{
+        border: 2px solid red;
+        width: 200px;
+        
+    }
