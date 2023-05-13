@@ -403,13 +403,14 @@
 
         <section class="Tercero">
             <div class="prom-logo-marcas">
-                <div class="prom-1">
-
+                <div class="prom-ctg">
+                    <img src="ImgPromo/prm-Instrumentos.png" alt="">
+                    <div id="tittle-ctg"></div>
                 </div>
-                <div class="prom-2">
+                <div class="prom-ctg">
                     
                 </div>
-                <div class="prom-3">
+                <div class="prom-ctg">
                     
                 </div>
             </div>
@@ -447,13 +448,17 @@
 
             </div>
 
-
-esto es una prueba a la verga
-
-
             <div class="Product-audio">
             <!--seccionar por cada 3 articulos-->
+                <!--Seccion 1-->
                 <div id= "sct-prd-audio" >
+                    <div class="cont-prdc">
+                        <img src="ImgPromo/Bosina.webp" alt="">   
+                        <div id="desc-img">
+                            <span>Contenido</span>
+                        </div>
+                    </div>
+
                     <div class="cont-prdc">
                         <img src="ImgPromo/bocina.jpg" alt="">   
                         <div id="desc-img">
@@ -461,32 +466,57 @@ esto es una prueba a la verga
                         </div>
                     </div>
 
-                    <div class="cont-prdc">
-                    </div>
-
-                    <div class="cont-prdc">    
+                    <div class="cont-prdc">   
+                        <img src="ImgPromo/MICRÓFONO_DECONDENSADOR.webp" alt="">   
+                        <div id="desc-img">
+                            <span>Contenido</span>
+                        </div> 
                     </div>
                 </div>
-               
+               <!--Seccion 2-->
                 <div id= "sct-prd-audio">
                     <div class="cont-prdc">
+                        <img src="ImgPromo/microfono_D5C_AKG.webp" alt="">   
+                        <div id="desc-img">
+                            <span>Contenido</span>
+                        </div>
                     </div>
         
                     <div class="cont-prdc"> 
+                        <img src="ImgPromo/controlador_KEYLAB_ESSENTIAL.webp" alt="">   
+                        <div id="desc-img">
+                            <span>Contenido</span>
+                        </div>
                     </div>
 
                     <div class="cont-prdc"> 
+                        <img src="ImgPromo/microfonos_mani_SAR21_SAMSON.webp" alt="">   
+                        <div id="desc-img">
+                            <span>Contenido</span>
+                        </div>
                     </div>
                 </div>
-
+                <!--Seccion 3-->
                 <div id= "sct-prd-audio">
                     <div class="cont-prdc">
+                        <img src="ImgPromo/micorfono_AT2035.webp" alt="">   
+                        <div id="desc-img">
+                            <span>Contenido</span>
+                        </div>
                     </div>
         
                     <div class="cont-prdc"> 
+                        <img src="ImgPromo/audifonos_K72_AKG.webp" alt="">   
+                        <div id="desc-img">
+                            <span>Contenido</span>
+                        </div>
                     </div>
 
                     <div class="cont-prdc"> 
+                        <img src="ImgPromo/amplificador4_canales_SAQH4_SAMSON.webp" alt="">   
+                        <div id="desc-img">
+                            <span>Contenido</span>
+                        </div>
                     </div>
                 </div>
             </div>

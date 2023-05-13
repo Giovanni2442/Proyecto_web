@@ -430,9 +430,8 @@ a{
         
     .Tercero{
         background: #000000;
-        border: 2px solid #2039cf;
         padding: 0px;
-        height: 500px;
+        height: 400px;
     }
 
         .prom-logo-marcas{
@@ -445,13 +444,35 @@ a{
             flex-wrap: wrap;
         }
 
-        .prom-logo-marcas div{
-            background: rgba(74, 177, 74, 0.388);
-            border: 1px solid rgb(21, 20, 20);
+        .prom-ctg{
+            background: rgba(57, 190, 57, 0.63);
+            border: 0.5px solid rgb(21, 20, 20);
             width: 100%;
             flex: 1;
-            min-width: 250px;
+            display: flex;
+            position: relative;
             margin: 0px;
+            padding:0px;
+            min-width: 250px;
+            
+            
+        }
+
+        .prom-logo-marcas img{
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+            width: 100%;
+
+        }
+
+        #tittle-ctg{
+            position: absolute;
+            margin: 0px;
+            width: 100%;
+            height: 100%;
+            background-color:#2021213d;
+            box-shadow: inset 0px 0px 17px 42px rgb(7 7 7 / 56%);
         }
 
     /*--SEPARADOR--*/
@@ -472,8 +493,10 @@ a{
 
     .Cuarto{
         margin: 0px;
+        margin-bottom: 15px;
         padding: 0px;
         background: rgba(137, 158, 161, 0.559)
+        
     }
         .mnuCarruSec{
             border: 2px solid red;
@@ -492,9 +515,7 @@ a{
             flex-direction: column;
         }
 
-
             #sct-prd-audio{
-                border: .5px solid green;
                 width: 100%;
                 display: flex;
                 margin: 0px;
@@ -505,7 +526,7 @@ a{
             .cont-prdc{
                 height: 400px;
                 flex: 1;
-                border: .5px solid #0f0f0f;
+                border: .2px solid #0f0f0f;
                 margin: 0px;
                 background-color: white;
                 display: flex;
@@ -516,7 +537,7 @@ a{
                 flex-direction: column;
             }
 
-            #sct-prd-audio img{
+            .cont-prdc img{
                 position: relative;
                 width: 200px;
                 height: 50%;
@@ -526,10 +547,10 @@ a{
             }
 
             #desc-img{
-                border: 2px solid #abafab59;
+                box-shadow: 2px 2px 4px 0px rgb(0 9 0);
                 width: 231px;
                 height: 50px;
-                background: #80808094;
+                background: #d4d3d826;
                 border-radius: 6px;
             }
 
@@ -547,7 +568,6 @@ a{
                 width: 30%;
                 height: 20px;
                 border: 2px solid yellow;
-
             }
 
             .sect2-products{
@@ -570,7 +590,7 @@ a{
         flex-wrap: wrap;
     }
         .mnuCarruTr{
-            border: 1px solid yellow;
+            border: 5px solid yellow;
             margin: 0px;
             flex: 2;
             min-width: 300px;
