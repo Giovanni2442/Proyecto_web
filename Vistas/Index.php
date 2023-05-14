@@ -400,17 +400,30 @@
       
             </div>
         </article>
-
+        
+        <div id="separador-Audio"></div>
         <section class="Tercero">
+            <!--Promocionar Articulos de Audio-->
             <div class="prom-logo-marcas">
                 <div class="prom-ctg">
+                    <img src="ImgPromo/prom-Audio2.png" alt="">
+                    <div id="tittle-ctg">
+                        <h1>AUDIO</h1>
+                    </div>
+                </div>
+             <!--Promocionar instrumentos-->
+                <div class="prom-ctg">
                     <img src="ImgPromo/prm-Instrumentos.png" alt="">
-                    <div id="tittle-ctg"></div>
+                    <div id="tittle-ctg">
+                        <h1>INSTRUMENTOS</h1>
+                    </div>
                 </div>
+             <!--Promocionar accesorios-->
                 <div class="prom-ctg">
-                    
-                </div>
-                <div class="prom-ctg">
+                    <img src="ImgPromo/prom-Accesorios.png" alt="">
+                    <div id="tittle-ctg">
+                        <h1>ACCESORIOS</h1>
+                    </div>
                     
                 </div>
             </div>

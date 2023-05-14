@@ -364,9 +364,10 @@ a{
             height: auto;
             margin: 0px;
             padding: 0px;
+            background-image: linear-gradient(135deg,#00b,);
             background-image: url(ImgIndex/popular-3.gif);
-            background-size: 100%;
-            background-repeat: no-repeat;
+           background-size: 100%;
+           background-repeat: no-repeat;
             flex-direction: column;
         }
 
@@ -431,7 +432,7 @@ a{
     .Tercero{
         background: #000000;
         padding: 0px;
-        height: 400px;
+        height: auto;
     }
 
         .prom-logo-marcas{
@@ -454,16 +455,18 @@ a{
             margin: 0px;
             padding:0px;
             min-width: 250px;
-            
-            
         }
 
         .prom-logo-marcas img{
             margin: 0px;
             padding: 0px;
-            height: 100%;
+            height: 400px;
             width: 100%;
+        }
 
+    
+        #img{
+            border: 2px solid red;
         }
 
         #tittle-ctg{
@@ -471,14 +474,22 @@ a{
             margin: 0px;
             width: 100%;
             height: 100%;
+            display: flex;
+            justify-content:center;
+            align-items: center;
             background-color:#2021213d;
-            box-shadow: inset 0px 0px 17px 42px rgb(7 7 7 / 56%);
+            box-shadow: inset 0px 0px 100px 53px rgb(7 7 7 / 56%);
+        }
+
+        #tittle-ctg h1{
+            color: rgba(255, 255, 255, 0.966);
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
         }
 
     /*--SEPARADOR--*/
     #separador-Audio{
-        border: 2px solid red; 
-        height: 70px;
+        border: 1px solid red; 
+        height: 30px;
     }
     /*--TITULO--*/
     #tittle-audio{
@@ -489,6 +500,8 @@ a{
     }
         #tittle-audio h1{
             color: white;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
         }
 
     .Cuarto{
