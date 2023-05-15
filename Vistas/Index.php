@@ -68,12 +68,15 @@
                     <h2 class="nameSite">NOMBRE PAGINA</h2>
                 </div>
 
+                <button class="abir">ABRIR</button>
+
                 <div class="brrBusqd">
                     <input type="text" id="indxSearch" name="indxSearc" placeholder = "Buscar...">
                 </div>
 
                 <div class="mnuPrin">
                     <nav>
+                      
                         <ul class="mnu-product">
                             <li>
                                 <span>
@@ -577,23 +580,29 @@
             <div class="prdc-desc-promo">
                 <div id= "sct-prd-desc" >
                     <div class="prd-1">
+                        <img src="ImgPromo/desc-btria-30%.png" alt="">
                     </div>
 
                     <div class="prd-2">
+                        <img src="ImgPromo/desc-consolaAud-45%.png" alt="">
                     </div>
 
-                    <div class="prd-3">    
+                    <div class="prd-3">  
+                        <img src="ImgPromo/desc-audif-45%.png" alt="">  
                     </div>
                 </div>
                 
                 <div id= "sct-prd-desc">
                     <div class="prd-1">
+                        <img src="ImgPromo/desc-ampli-yam-38%.png" alt="">
                     </div>
         
-                    <div class="prd-2"> 
+                    <div class="prd-2">
+                        <img src="ImgPromo/desc-tcld-yam-25%.png" alt="">
                     </div>
 
                     <div class="prd-3"> 
+                        <img src="ImgPromo/desc-micrf-sm58-25%.png" alt="">
                     </div>
                 </div>
             </div>
@@ -650,8 +659,6 @@
             </div>
 
         </footer>
-
-
 
     </div>
     <Script src="../Scripts/carrucelAuto.js"></Script>

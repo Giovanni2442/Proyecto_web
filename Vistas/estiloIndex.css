@@ -56,6 +56,7 @@ a{
 
         .usuario a{
             padding: 5px;
+            text-decoration: none;
             margin: 0px;
             display: flex;
             height: auto;
@@ -280,6 +281,10 @@ a{
                         list-style: none;
                         display: flex;
                         flex-direction: column;
+                    }
+
+                    .mnu-product a{
+                        text-decoration:none;
                     }
                 
                 
@@ -517,7 +522,7 @@ a{
 
     .Cuarto{
         margin: 0px;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
         padding: 0px;
     }
         .mnuCarruSec{
@@ -610,7 +615,6 @@ a{
         flex-wrap: wrap;
     }
         .mnuCarruTr{
-            border: 5px solid yellow;
             height:400px;
             margin: 0px;
             flex: 2;
@@ -641,7 +645,6 @@ a{
                 width: 25%;
             }
     .Sexto{
-        border: 2px solid red;
         height: auto;
         margin: 0px;
         padding: 0px;
@@ -652,7 +655,7 @@ a{
             height: auto;
             margin: 0px;
             padding: 0px;
-            border: 1px solid yellow;
+            
         }
             #sct-prd-desc{
                 display: flex;
@@ -660,16 +663,21 @@ a{
                 height: auto;
                 margin: 0px;
                 padding: 0px;
-                border: 0.5px solid blue;
-
             }
             #sct-prd-desc div{
                 flex: 1;
-                border: 2px solid orange;
                 min-width: 300px;
                 margin: 8px;
                 height: 300px;
                 padding:0px;
+            }
+
+            #sct-prd-desc img{
+                width: 100%;
+                height: 100%;
+                margin:0px;
+                padding:0px;
+
             }
 footer{
     background-color: rgba(133, 229, 227, 0.429);
@@ -746,6 +754,7 @@ footer{
         backface-visibility: hidden;
         transition: transform .6s ease-in-out;
     }
+
     
      
 
