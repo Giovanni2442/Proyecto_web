@@ -538,11 +538,33 @@
         <section class="Quinto">
             <div class="mnuCarruTr">
                 <!--Contenido imagenes carrucel-->
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img src="ImgPromo/crru-Audio-1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="ImgPromo/crru-Audio-2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="ImgPromo/prm-Instrumentos.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="Promo-prdc-desc">
-                <div id="txt-desc"></div>
-                <div id="btn-pag-desc"></div>
+                <div id="txt-desc">
+                    <h3>DESCUENTOS</h3>
+                    <span>
+                        Lorem ipsum dolor, 
+                        sit amet consectetur adipisicing elit.
+                         Magni nobis dolor quas perferendis. Quod, dolor obcaecati perspiciatis, temporibus porro maxime nesciunt dicta ipsam eos laudantium fugit laborum, corporis quae totam.
+                    </span>
+                </div>
+                <div id="btn-pag-desc">
+                    VER
+                </div>
             </div>
         </section>
 
