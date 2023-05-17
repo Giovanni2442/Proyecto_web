@@ -106,8 +106,7 @@ class conectar{
 		$correo = $usu->getCorreo();
 		$pass = $usu->getPassword();
 
-		$csql = "update usuario set nombre = '".$name.""
-				."where alias = '".$alias."'";
+		$csql = "UPDATE usuario SET nombre = '$name', apellidoP = '$apP', apellidoM = '$apM', correo = '$correo', password = '$pass' WHERE alias = '$alias'";
 
 		$resultado = $conex->query($csql);
 		return $resultado;

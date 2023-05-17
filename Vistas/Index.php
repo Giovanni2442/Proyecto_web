@@ -12,8 +12,7 @@
 <body>
 
     <div class="principal">
-        <header class="header">
-
+        <header class="header"> 
             <div class="usuario">
                 <div class="cntContact">
                     <div class="correo">

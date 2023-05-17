@@ -32,27 +32,27 @@
         
                 <div class="name">
                     <p>Nombre : </p>
-                    <input type="text" name="nombre" id="nombre"  placeholder="<?php echo $_SESSION["name"];?>">
+                    <input type="text" name="nombre" id="nombre"  value="<?php echo $_SESSION["name"];?>">
                 </div>
                 <div class="apellidoP">
                     <p>apellidos Paterno: </p>
-                    <input type="text" name="ApellidoP" id="ApellidoP"  placeholder="<?php echo $_SESSION["paterno"];?>">
+                    <input type="text" name="ApellidoP" id="ApellidoP"  value="<?php echo $_SESSION["paterno"];?>">
                 </div>
                 <div class="apellidoM">
                     <p>apellidos materno: </p>
-                    <input type="text" name="ApellidoM" id="ApellidoM"  placeholder="<?php echo $_SESSION["materno"];?>">
+                    <input type="text" name="ApellidoM" id="ApellidoM"  value="<?php echo $_SESSION["materno"];?>">
                 </div>
                 <div class="alias">
                     <p>Alias: </p>
-                    <input type="text" name="alias" id="als"  placeholder="<?php echo $_SESSION["alias"]?>">
+                    <input type="text" name="alias" id="als"  value="<?php echo $_SESSION["alias"]?>">
                 </div>
                 <div class="correo">
                     <p>Correo: </p>
-                    <input type="text" name="Correo" id="correo"  placeholder="<?php echo $_SESSION["email"]?>">
+                    <input type="text" name="Correo" id="correo"  value="<?php echo $_SESSION["email"]?>">
                 </div>
                 <div class="password">
                     <p>Contraseña: </p>
-                    <input type="password" name="password" id="password"  placeholder="<?php echo $_SESSION["pass"]?>">
+                    <input type="password" name="password" id="password"  value="<?php echo $_SESSION["pass"]?>">
                 </div>
                 <div id="btnRegister">
                     <input type="submit" name="agregar" id="Agregar" value="Registrar" >
