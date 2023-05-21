@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+span{
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+.Container{
+    width: 90%;
+    margin: auto;
+}
+
+.nav-menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+.nav-main{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+
+.nav-menu{
+    width: 80px;
+}
+
+.nav-menu li{
+    display: flex;
+}
+.nav-menu li{
+    padding: 10px;
+}
