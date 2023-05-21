@@ -86,7 +86,7 @@
                                         <ul>
                                             <li>
                                                 <span>
-                                                    <a href="#">GUITARRAS ELECTRICAS</a>
+                                                    <a href="guitarras.php">GUITARRAS ELECTRICAS</a>
                                                 </span>
                                             </li>
                                             <li>
