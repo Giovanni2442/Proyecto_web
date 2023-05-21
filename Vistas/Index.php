@@ -91,22 +91,22 @@
                                             </li>
                                             <li>
                                                 <span>
-                                                    <a href="#">ACUSTICAS</a>
+                                                    <a href="acusticas.php">ACUSTICAS</a>
                                                 </span>
                                             </li>
                                             <li>
                                                 <span>
-                                                    <a href="#">REQUINTO</a>
+                                                    <a href="requinto.php">REQUINTO</a>
                                                 </span>
                                             </li>
                                             <li>
                                                 <span>
-                                                    <a href="#">UKELELE</a>
+                                                    <a href="ukelele.php">UKELELE</a>
                                                 </span>
                                             </li>
                                             <li>
                                                 <span>
-                                                    <a href="#">ACCESORIÓS</a>
+                                                    <a href="accesorios.php">ACCESORIÓS</a>
                                                 </span>
                                             </li>
                                         </ul>
@@ -123,27 +123,27 @@
                                         <ul>
                                             <li>
                                                 <span>
-                                                    <a href="#">BAJO ELECTRICO</a>
+                                                    <a href="bajoElectrico.php">BAJO ELECTRICO</a>
                                                 </span>
                                             </li>
                                             <li>
                                                 <span>
-                                                    <a href="#">BAJO ELECTROACÚSTICO</a>
+                                                    <a href="bajoElectroacustico.php">BAJO ELECTROACÚSTICO</a>
                                                 </span>
                                             </li>
                                             <li>
                                                <span>
-                                                   <a href="#">ACCESORIOS</a>
+                                                   <a href="accesoriosB.php">ACCESORIOS</a>
                                                </span>
                                            </li>
                                            <li>
                                                <span>
-                                                   <a href="#">AMPLIFICADORES</a>
+                                                   <a href="amplificadores.php">AMPLIFICADORES</a>
                                                </span>
                                            </li>
                                             <li>
                                                 <span>
-                                                    <a href="#">PEDALERAS</a>
+                                                    <a href="pedaleras.php">PEDALERAS</a>
                                                 </span>
                                             </li>
                                         </ul>
