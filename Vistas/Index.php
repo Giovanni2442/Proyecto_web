@@ -559,9 +559,7 @@
                 <div id="txt-desc">
                     <h3>DESCUENTOS</h3>
                     <span>
-                        Lorem ipsum dolor, 
-                        sit amet consectetur adipisicing elit.
-                         Magni nobis dolor quas perferendis. Quod, dolor obcaecati perspiciatis, temporibus porro maxime nesciunt dicta ipsam eos laudantium fugit laborum, corporis quae totam.
+                        <img src="ImgGuitarras/descuentos.png">
                     </span>
                 </div>
                 <div id="btn-pag-desc">
@@ -654,7 +652,7 @@
             </div>
 
             <div class = "cotc-mnu">
-                <span>MAPA</span>
+                <span><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2002.444701062882!2d-101.62910665467122!3d21.109049238113272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbe6f8e8cdbf7%3A0xff3c8cc2b5af98fc!2sInstituto%20Tecnol%C3%B3gico%20de%20Le%C3%B3n!5e0!3m2!1ses!2smx!4v1684703937941!5m2!1ses!2smx" width="500" height="270" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></span>
             </div>
 
         </footer>
