@@ -611,7 +611,39 @@
         <footer>
             <div class="inf-pgn">
                 <div id="ttl-mnu-prin">
-                    <!-- <span>MENU PRINCIPAL</span> -->
+                    <span>MENU PRINCIPAL</span>
+                    <ul>
+                        <li>
+                            <span>
+                               <a href="#">GUITARRAS</a>
+                            </span>
+                        </li>
+
+                        <li>
+                            <span>
+                                <a href="#">BAJOS</a>
+                            </span>
+                        </li>
+
+                       <li>
+                            <span>
+                                <a href="#">METALES</a>
+                            </span>
+                        </li>
+
+                        <li>
+                            <span>
+                                <a href="#">METALES</a>
+                            </span>
+                        </li>
+
+                        <li>
+                            <span>
+                                <a href="#">METALES</a>
+                            </span>
+                        </li>
+                    </ul>
+
                     <!--Agregar Lista
                         Guitarras
                         Bajos
@@ -656,7 +688,6 @@
             <div class = "cotc-mnu">
                 <span>MAPA</span>
             </div>
-
         </footer>
 
     </div>

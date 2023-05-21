@@ -10,6 +10,6 @@
         $alias = $_POST['alias'];
         $email = $_POST['Correo'];
         $pss = $_POST['password'];
-        $pruebas->editar($nombre,$apP,$apM,$alias,$email,$pss);
+        $pruebas->update($nombre,$apP,$apM,$alias,$email,$pss);
     }
 ?>
