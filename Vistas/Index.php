@@ -86,7 +86,7 @@
                                         <ul>
                                             <li>
                                                 <span>
-                                                    <a href="guitarras.php">GUITARRAS ELECTRICAS</a>
+                                                    <a href="guitarrasE.php">GUITARRAS ELECTRICAS</a>
                                                 </span>
                                             </li>
                                             <li>
@@ -470,21 +470,21 @@
                     <div class="cont-prdc">
                         <img src="ImgPromo/Bosina.webp" alt="">   
                         <div id="desc-img">
-                            <span>Contenido</span>
+                            <span><b>CONTENIDO:</b><br> BOCINA BLUETOOTH SELECT SOUND BT1406 TECNOLÓGIA TWS<br> <h1>$269.00 mxn</h1></span>
                         </div>
                     </div>
 
                     <div class="cont-prdc">
                         <img src="ImgPromo/bocina.jpg" alt="">   
                         <div id="desc-img">
-                            <span>Contenido</span>
+                            <span><b>CONTENIDO:</b> <br>KIT PARA BOCINA KIT 15PS76-8 OHM <br><h1>$1,155.00 mxn</h1></span>
                         </div>
                     </div>
 
                     <div class="cont-prdc">   
                         <img src="ImgPromo/MICRÓFONO_DECONDENSADOR.webp" alt="">   
                         <div id="desc-img">
-                            <span>Contenido</span>
+                            <span><b>CONTENIDO:</b><br> MICRÓFONO DE CONDENSADOR CARDIOIDE AT2020 AUDIO TECHNICA <br><h1>$2,065.00 mxn</h1> </span>
                         </div> 
                     </div>
                 </div>
@@ -493,21 +493,21 @@
                     <div class="cont-prdc">
                         <img src="ImgPromo/microfono_D5C_AKG.webp" alt="">   
                         <div id="desc-img">
-                            <span>Contenido</span>
+                            <span><b>CONTENIDO:</b><br>MICRÓFONO DINÁMICO D5C AKG <br><h1>$2,265.00 mxn</h1></span>
                         </div>
                     </div>
         
                     <div class="cont-prdc"> 
                         <img src="ImgPromo/controlador_KEYLAB_ESSENTIAL.webp" alt="">   
                         <div id="desc-img">
-                            <span>Contenido</span>
+                            <span><b>CONTENIDO:</b><br>TECLADO DIGITAL EK-50 L KORG <br><h1>$20,530.00 mxn</h1></span>
                         </div>
                     </div>
 
                     <div class="cont-prdc"> 
                         <img src="ImgPromo/microfonos_mani_SAR21_SAMSON.webp" alt="">   
                         <div id="desc-img">
-                            <span>Contenido</span>
+                            <span><b>CONTENIDO:</b><br>BEHRINGER XM1800S MICRÓFONOS DINÁMICOS E INSTRUMENTALES(JUEGO DE 3)<br><h1>$1,500.00 mxn</h1></span>
                         </div>
                     </div>
                 </div>
@@ -516,21 +516,21 @@
                     <div class="cont-prdc">
                         <img src="ImgPromo/micorfono_AT2035.webp" alt="">   
                         <div id="desc-img">
-                            <span>Contenido</span>
+                            <span><b>CONTENIDO:</b> <br>MICRÓFONO DE CONDENSADOR MACKIE USB EM-91CU <br><h1>$1,580.00 mxn</h1></span>
                         </div>
                     </div>
         
                     <div class="cont-prdc"> 
                         <img src="ImgPromo/audifonos_K72_AKG.webp" alt="">   
                         <div id="desc-img">
-                            <span>Contenido</span>
+                            <span><b>CONTENIDO:</b> <br>AUDÍFONOS DE ESTUDIO ATH-M30X AUDIO TECHNICA <br><h1>$1,865.00 mxn</h1></span>
                         </div>
                     </div>
 
                     <div class="cont-prdc"> 
                         <img src="ImgPromo/amplificador4_canales_SAQH4_SAMSON.webp" alt="">   
                         <div id="desc-img">
-                            <span>Contenido</span>
+                            <span><b>CONTENIDO:</b> <br>SAMSON QH4 AMPLIFICADOR DE AURICULARES DE ESTUDIO DE 4 CANALES, NEGRO/PLATEADO <br><h1>$2,027.00 mxn</h1></span>
                         </div>
                     </div>
                 </div>
