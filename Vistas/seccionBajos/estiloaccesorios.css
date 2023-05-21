@@ -1,0 +1,315 @@
+
+
+*{
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+html{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(66, 66, 228);
+    margin: 0px;
+    padding: 0px;
+}
+
+a:hover{
+	color: #b52323;
+}
+
+a{
+	color:white;
+	text-decoration: none;
+    margin: 0px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.principal{
+    margin: 0px;
+    padding: 0px;
+	width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+	background-color: #000000;
+}
+
+    .header{
+        background-color: #000000;
+        height: 10%;
+        padding: 0px;
+        margin: 0px;
+    }
+        .usuario{
+            background-color: rgb(0, 0, 0);
+            display: flex;
+            margin: 0px;
+            padding: 0px;
+            height: auto;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+        }
+
+        .usuario a{
+            padding: 5px;
+            text-decoration: none;
+            margin: 0px;
+            display: flex;
+            height: auto;
+            color: rgb(255, 255, 255);
+                        
+        }
+
+        .usuario a:hover{
+            color: #D60303;
+        }
+
+            .cntContact{
+                display: flex;
+                margin: 0px;
+                width: 60%;
+                padding: 0px;
+                align-items: center;
+                justify-content: space-between;
+
+            }
+                .correo{
+                    background-color: rgb(0, 0, 0);
+                    display: flex;
+                    height: 30px;
+                    margin: 0px;
+                    align-items: center;
+                    border-right: 3px solid white;
+                }
+                    .correo img{
+                        padding: 0px;
+                        margin: 0px;
+                        width: auto;
+                        height: 23px;;
+                    }
+      
+                
+                .numero{   
+                    width: auto;
+                    height: 30px;
+                    display: flex;
+                    margin: 0px;
+                    background-color: black;
+                    align-items: center;
+                    flex: auto;
+                     
+                }
+                    .numero img{
+                        padding: 0px;
+                        margin: 0px;
+                        width: auto;
+                        height: 20px;
+                    }
+                    .numero p {
+                        color: aliceblue;
+                        width: auto;
+                    }
+
+            .contacto{
+                background-color: black;
+                
+                height: 30px;
+                margin: 0px;
+                display: flex;
+                align-items: center;
+            }
+                .contacto img{
+                    padding: 0px;
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                    margin-left: 15px;
+                    margin-right: 15px;
+                    width: auto;
+                    height: 15px;
+                   
+                }
+
+            .cntRegister{
+                display: flex;
+                width: auto;
+                height: auto;
+                padding: 0px;
+                margin: 0px;
+                align-items: center;
+                justify-content: flex-end;
+                flex-wrap: wrap;
+            }
+                .cntRegister img{
+                    padding: 0px;
+                        margin: 0px;
+                        width: auto;
+                        height: 20px;
+                }
+                .registro{
+                    width: auto;
+                    height: 30px;
+                    display: flex;
+                    margin: 0px;
+                    background-color: black;
+                    border-right: 2px solid white;
+                    align-items: center;
+                }
+                    .registro p{
+                        color: white;
+                        width: auto;
+                    }
+
+                .inicioSec{
+                    width: auto;
+                    height: 30px;
+                    margin: 0px;
+                    display: flex;
+                    background-color: black;
+                    align-items: center;
+                }
+                    .inicioSec p{
+                        color: white;
+                        width: auto;
+                    }
+
+        .busqueda{
+            background-color: rgb(0 0 0);
+            height: auto;
+            display: flex;
+            width: auto;
+            margin: 0px;
+            border-top: 2px solid #3917bea8;
+            padding: 0%;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+            .logo{
+                background-color: #050101;
+                display: flex;
+                align-items: center;
+                width: auto;
+                margin: 0px;         
+                padding: 0px;
+            }
+                .logo img{
+                    width: 50px;
+                    margin: 0px;
+                }
+
+            .nameSite{
+                color: aliceblue;
+                margin: 0px;
+                font-size: inherit;
+                padding: 0px;
+            }
+
+            .brrBusqd{
+                background-color: #050101;
+                display: flex;
+                align-items: center;
+                margin: 1px;
+                flex: 1 1 auto;
+            }
+
+                .brrBusqd input{
+                    width: 500%;
+                    border-radius: 10px;
+                     border: 2px solid #1c7fab94;
+                }
+
+            .mnuPrin{
+                background-color: rgb(0, 0, 0);
+                margin: 0px;
+            }
+                .mnuPrin span{
+                    color: white;
+                    padding: 0px;
+                    margin: 0px;
+                }
+
+                .mnuPrin li{
+                    margin: 0%;
+                    padding: 0%;
+                }
+        
+                .mnuPrin a:hover{
+                    color: #D60303;
+                }
+
+                .mnuPrin nav{
+                    color: white;
+                    font-size: 90%;
+                    margin: 0px;
+                    padding: 0px;
+                }
+
+                .mnuPrin a:hover{
+                    color: #D60303;
+                }
+
+                /* en mnuPrin para todos los li, cuando pase el cursor, despliega
+                todos los divs o cajas que contenga adentro de la lista*/
+                .mnuPrin li:hover > div{
+                    display: block;
+                }
+               
+                /*Menu principal de Productos*/
+                .mnu-product{
+                    display: flex;
+                    list-style: none;
+                    flex-wrap: wrap;
+                    margin: 0px;
+                    padding: 0px;
+                }
+
+                    /*Submenus de cada producto*/
+                    .mnu-product div{
+                        background: #050101;
+                        position: absolute;
+                        margin: 0px;
+                        padding: 0px;
+                        display: none;
+                        z-index: 1;
+                    }
+
+                    .mnu-product div ul{
+                        list-style: none;
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+                    .mnu-product a{
+                        text-decoration:none;
+                    }
+                
+                
+                .carrito{
+                    background-color: #050101;
+                    width: auto;
+                    margin: 0px;
+                    margin-right: 7px;
+                    margin-left: 7px;
+                }
+
+                    .carrito img{
+                        width: 30px;
+                        margin: 0px;
+                    }
+                    .seccion1{
+                    background-color: rgba(153, 0, 255, 0.429);
+                    width: 100%;
+                    padding: 80px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    height: auto;
+                    margin: 90px;;
+                }
+
+            

@@ -10,7 +10,6 @@
     <title>Document</title>
 </head>
 <body>
-
     <div class="principal">
         <header class="header"> 
             <div class="usuario">
@@ -86,27 +85,27 @@
                                         <ul>
                                             <li>
                                                 <span>
-                                                    <a href="#">GUITARRAS ELECTRICAS</a>
+                                                    <a href="guitarras/guitarrasElectricas.html">GUITARRAS ELECTRICAS</a>
                                                 </span>
                                             </li>
                                             <li>
                                                 <span>
-                                                    <a href="#">ACUSTICAS</a>
+                                                    <a href="guitarras/guitarrasElectricas.html">ACUSTICAS</a>
                                                 </span>
                                             </li>
                                             <li>
                                                 <span>
-                                                    <a href="#">REQUINTO</a>
+                                                    <a href="guitarras/guitarrasElectricas.html">REQUINTO</a>
                                                 </span>
                                             </li>
                                             <li>
                                                 <span>
-                                                    <a href="#">UKELELE</a>
+                                                    <a href="guitarras/guitarrasElectricas.html">UKELELE</a>
                                                 </span>
                                             </li>
                                             <li>
                                                 <span>
-                                                    <a href="#">ACCESORIÓS</a>
+                                                    <a href="guitarras/guitarrasElectricas.html">ACCESORIÓS</a>
                                                 </span>
                                             </li>
                                         </ul>
@@ -123,27 +122,27 @@
                                         <ul>
                                             <li>
                                                 <span>
-                                                    <a href="#">BAJO ELECTRICO</a>
+                                                    <a href="seccionBajos/Bajoelectrico.html">BAJO ELECTRICO</a>
                                                 </span>
                                             </li>
                                             <li>
                                                 <span>
-                                                    <a href="#">BAJO ELECTROACÚSTICO</a>
+                                                    <a href="seccionBajos/bajoAcustico.html">BAJO ELECTROACÚSTICO</a>
                                                 </span>
                                             </li>
                                             <li>
                                                <span>
-                                                   <a href="#">ACCESORIOS</a>
+                                                   <a href="seccionBajos/accesorios.html">ACCESORIOS</a>
                                                </span>
                                            </li>
                                            <li>
                                                <span>
-                                                   <a href="#">AMPLIFICADORES</a>
+                                                   <a href="seccionBajos/amplificadores.html">AMPLIFICADORES</a>
                                                </span>
                                            </li>
                                             <li>
                                                 <span>
-                                                    <a href="#">PEDALERAS</a>
+                                                    <a href="seccionBajos/pedaleras.html">PEDALERAS</a>
                                                 </span>
                                             </li>
                                         </ul>
@@ -195,17 +194,17 @@
                                         <ul>
                                             <li>
                                                 <span>
-                                                    <a href="#">TROMPETAS</a>
+                                                    <a href="seccionViento/trompetas.html">TROMPETAS</a>
                                                 </span>
                                             </li>
                                             <li>
                                                 <span>
-                                                    <a href="#">FLAUTAS</a>
+                                                    <a href="seccionViento/flautas.html">FLAUTAS</a>
                                                 </span>
                                             </li>
                                             <li>
                                                 <span>
-                                                    <a href="#">METALES</a>
+                                                    <a href="seccionViento/metales.html">METALES</a>
                                                 </span>
                                             </li>
                                         </ul>
