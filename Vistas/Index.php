@@ -397,7 +397,6 @@
                             <div class="product-description">
                             </div>
                         </div>
-                        
                     </div>
       
             </div>
@@ -441,14 +440,15 @@
                 <!--Contenido del carrucel-->
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
+
                     <div class="carousel-item active">
-                    <img src="ImgIndex/teclado.webp" class="d-block w-100" alt="...">
+                        <img src="ImgIndex/teclado.webp" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                    <img src="ImgIndex/Drums.jpg" class="d-block w-100" alt="...">
+                        <img src="ImgIndex/Drums.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                    <img src="ImgIndex/Drums.jpg" class="d-block w-100" alt="...">
+                        <img src="ImgIndex/Drums.jpg" class="d-block w-100" alt="...">
                     </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -661,7 +661,7 @@
                         Audio
                         Accesorios-->
                 </div>
-
+            
                 <div id="ttl-mnu-prin">
                    <!-- <span>CONTACTO</span> -->
                     <!--Agregar Lista
@@ -673,6 +673,14 @@
                 </div>
 
                 <div id="ttl-mnu-prin">
+                    <ul>
+                        <li>
+                            <span>
+                                <a href="">REFERENCIA DE PRUEBA</a>
+                            </span>
+
+                        </li>
+                    </ul>
                    <!-- <span>POLITICAS</span>--->
                     <!--Agregar Lista
                         Guitarras
