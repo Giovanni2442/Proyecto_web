@@ -105,7 +105,7 @@
                                         </li>
                                         <li>
                                             <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/accesorios.html">ACCESORIÓS</a>
+                                                <a href="/proyecto/Proyecto_web/Vistas/guitarras/Accesorios.html">ACCESORIÓS</a>
                                             </span>
                                         </li>
                                     </ul>
