@@ -207,21 +207,40 @@ a{
                 font-size: inherit;
                 padding: 0px;
             }
-
-            .brrBusqd{
+            .busqueda {
+                position: relative;
+            }
+            
+            .brrBusqd {
                 background-color: #050101;
                 display: flex;
                 align-items: center;
                 margin: 1px;
                 flex: 1 1 auto;
+                cursor: pointer;
+                position: relative;
+                z-index: 2;
             }
-
-                .brrBusqd input{
-                    width: 500%;
-                    border-radius: 10px;
-                     border: 2px solid #1c7fab94;
-                }
-
+            
+            .brrBusqd input {
+                width: 100%;
+                border-radius: 10px;
+                border: 2px solid #1c7fab94;
+            }
+            
+            #list {
+                display: none;
+                margin-top: 10px;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                background-color: white;
+                padding: 10px;
+                list-style: none;
+                margin: 0;
+                z-index: 3;
+            }
+                       
             .mnuPrin{
                 background-color: rgb(0, 0, 0);
                 margin: 0px;
@@ -265,6 +284,7 @@ a{
                     flex-wrap: wrap;
                     margin: 0px;
                     padding: 0px;
+                    
                 }
 
                     /*Submenus de cada producto*/
@@ -274,13 +294,14 @@ a{
                         margin: 0px;
                         padding: 0px;
                         display: none;
-                        z-index: 1;
+                        z-index: 2;
                     }
 
                     .mnu-product div ul{
                         list-style: none;
                         display: flex;
                         flex-direction: column;
+                
                     }
 
                     .mnu-product a{
@@ -307,12 +328,15 @@ a{
             margin: 0px;
             margin-bottom: 30px;
             padding: 0px;
+            position: relative;
+            z-index: 1;
         }
             .itemsCarru{
                 height: 100%;
                 position: relative;
                 margin: 0px;
                 padding: 0px;
+                z-index: 1;
 
             }
 
