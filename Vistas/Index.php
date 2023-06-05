@@ -8,6 +8,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="/jquery.dataTables.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.11.3/datatables.min.css"/>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.11.3/datatables.min.js"></script>
+
 </head>
 <body>
     <div class="principal">
@@ -68,10 +74,51 @@
 
                 <button class="abir">ABRIR</button>
 
-                <div class="brrBusqd">
-                    <input type="text" id="indxSearch" name="indxSearc" placeholder = "Buscar...">
+                <div class="brrBusqd" onmouseover="showList()" onmouseleave="hideList()">
+                    <input id="indxSearch" onkeyup="search_instrumentos()" type="text" name="indxSearc" placeholder="Buscar...">
+      
+                
+                <!-- ordered list--> 
+                
+                <ol id='list' class="list-hidden">
+                    <li class=""><a href="/proyecto/Proyecto_web/Vistas/guitarras/guitarrasGeneral.html">GUITARRAS</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/guitarras/guitarrasElectricas.html">GUITARRAS ELECTRICAS</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/guitarras/guitarrasAcusticas.html">ACUSTICAS</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/guitarras/requinto.html">REQUINTO</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/guitarras/ukelele.html">UKELELE</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/seccionBajos/accesorios.html">ACCESORIÓS</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/seccionBajos/bajosGeneral.html">BAJOS</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/seccionBajos/Bajoelectrico.html">BAJO ELECTRICO</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/seccionBajos/bajoAcustico.html">BAJO ELECTROACÚSTICO</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/seccionBajos/accesorios.html">ACCESORIOS</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/seccionBajos/amplificadores.html">AMPLIFICADORES</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/seccionBajos/pedaleras.html">PEDALERAS</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/percusiones/percusionesGeneral.html">PERCUCIONES</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/Percusiones/baterias.html">BATERÍAS</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/Percusiones/percusiones.HTML">PERCUCIÓNES</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/Percusiones/platillos.html">PLATILLOS</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/seccionBajos/pedaleras.html">PEDALERAS</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/seccionBajos/accesorios.html">ACCESORIOS</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/seccionViento/vientoGeneral.html">VIENTO</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/seccionViento/trompetas.html">TROMPETAS</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/seccionViento/flautas.html">FLAUTAS</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/seccionViento/metales.html">METALES</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/audio/audioGeneral.html">AUDIO</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/audio/microfonia.html">MICROFONIA</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/audio/bafles.html">BAFLES ACTIVO PASIVO</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/audio/mezcladorasConsolas.html">MEZCALDORAS Y CONSOLAS</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/audio/homeStudio.html">HOME STUDIO</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/audio/djsets.html">DJ´S SETS</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/audio/cables.html">ACCESORIOS, CABLES ETC...</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/Teclados/tecladosGeneral.html">TECLADOS</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/Teclados/pianoElectrico.html">PIANO ELECTRICO</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/Teclados/pianoClasico.html">PIANO CLASICO</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/Teclados/pianoControlador.html">PIANO CONTROLADOR</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/Teclados/sintetizadores.html">SINTETIZADORES</a></li>
+                    
+                </ol>
                 </div>
-
+            
                 <div class="mnuPrin">
                     <nav>
 
@@ -646,5 +693,6 @@
     </div>
     <Script src="../Scripts/carrucelAuto.js"></Script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="../Scripts/busqueda.js"></script>
 </body>
 </html>
