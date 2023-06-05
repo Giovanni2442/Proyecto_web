@@ -105,7 +105,7 @@
                                         </li>
                                         <li>
                                             <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/accesorios.html">ACCESORIÓS</a>
+                                                <a href="/proyecto/Proyecto_web/Vistas/guitarras/Accesorios.html">ACCESORIÓS</a>
                                             </span>
                                         </li>
                                     </ul>
@@ -133,17 +133,7 @@
                                         </li>
                                         <li>
                                             <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/accesorios.html">ACCESORIOS</a>
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
                                                 <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/amplificadores.html">AMPLIFICADORES</a>
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/pedaleras.html">PEDALERAS</a>
                                             </span>
                                         </li>
                                     </ul>
@@ -175,11 +165,6 @@
                                         <li>
                                             <span>
                                                 <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/pedaleras.html">PEDALERAS</a>
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/accesorios.html">ACCESORIOS</a>
                                             </span>
                                         </li>
                                     </ul>
