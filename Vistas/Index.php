@@ -58,7 +58,7 @@
                     <div class="inicioSec">
                         <img src="ImgIndex/candado.webp">
                         <a href="iniciar.php">
-                            Iniciar Seción
+                            Iniciar Sesión
                         </a>
 
                     </div>
