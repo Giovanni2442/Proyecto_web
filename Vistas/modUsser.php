@@ -26,9 +26,11 @@
         <section class="cntform">
 
             <form  method="POST" class="form">
-                 <?php
-                    include "../pruebas/pruRegistrar.php"; 
-                 ?>
+                <?php
+                    include_once "../pruebas/pruModificar.php"; 
+                    $modUsser = new pruModificar();
+                    $mod = $modUsser->modUsser('Modificar');
+                ?>
         
                 <div class="name">
                     <p>Nombre : </p>
@@ -55,7 +57,7 @@
                     <input type="password" name="password" id="password"  value="<?php echo $_SESSION["pass"]?>">
                 </div>
                 <div id="btnRegister">
-                    <input type="submit" name="agregar" id="Agregar" value="Registrar" >
+                    <input type="submit" name="Modificar" id="" value="Modificar" >
                 </div>
             </form>
         </section>

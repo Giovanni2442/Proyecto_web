@@ -1,13 +1,13 @@
 <?php
 
-include  ("../usuario/clase_usuario.php");
+include_once("../usuario/clase_usuario.php");
 
 class conectar{
 	//Parametros de la conexión a la Base de Datos
 	private $server="localhost";
 	private $usr="root";
-	private $pass="";
-	private $db="pruebalog";
+	private $pass="2442";
+	private $db="tienda_musica";
     
 	//Funcion para conectar
 	public function conectar(){
@@ -27,14 +27,22 @@ class conectar{
             if($conx){
                 echo "Conectado";
                 
-                $csql = "select * from usuario";
+                $csql = "SELECT * FROM usuarios";
                 $datos = $conx->query($csql);
                 $filas = $datos->num_rows;
                 echo $filas;
 
+				if($filas > 0){ //Verifica si el numero de filas es mayor a cero
+					return $datos; //Devuelve el objeto donde consulta el numero de filas
+
+				}else{
+					return null;
+				}
+
             }else{
                 echo "Error";
-            }
+				return null;
+            }	
 	}
 
 	public function consulta($email,$pass){
@@ -43,7 +51,7 @@ class conectar{
 	
 			$csql = "Select * from usuarios
 					where correo = '{$email}' 
-					and password = '{$pass}'";
+					and contrasena = '{$pass}'";
 
 			$conex = $this->conectar();
 			$resultado = $conex->query($csql);
@@ -56,11 +64,11 @@ class conectar{
 
 				$fila = $resultado->fetch_assoc();
 				$usser->setNombre($fila["nombre"]);
-				$usser->setApellidoP($fila["apellidoP"]);
-				$usser->setApellidoM($fila["apellidoM"]);
+				$usser->setApellidoP($fila["apellido_p"]);
+				$usser->setApellidoM($fila["apellido_m"]);
 				$usser->setCorreo($fila["correo"]);
 				$usser->setAlias($fila["alias"]);
-				$usser->setPassword($fila["password"]);
+				$usser->setPassword($fila["contrasena"]);
 			}
 			return $usser;
 	}
@@ -68,7 +76,7 @@ class conectar{
 	public function Agregar($usu){
 		//Declarar objeto de clase usuario.
 		$cnx = $this->conectar();
-		//echo "Conectado";
+		echo "Conectado";
 	
 		$nombre = $usu->getNombre();
 		$apP = $usu->getApellidoP();
@@ -77,7 +85,7 @@ class conectar{
 		$correo = $usu->getCorreo();
 		$pass = $usu->getPassword();
 	
-		$csql = "INSERT INTO usuarios(nombre, apellidoP, apellidoM, alias, correo,password)
+		$csql = "INSERT INTO usuarios(nombre, apellido_P, apellido_M, alias, correo, contrasena)
 		 VALUES ('$nombre', '$apP','$apM', '$alias','$correo','$pass')";
 	
 		$resultado = $cnx->query($csql);
@@ -85,33 +93,27 @@ class conectar{
 	}
 
 
-	public function Elimina($alias){
-		//$cnx = $this->conectar();
-		
-		$csql = "delete from usuario
-				where alias = '" .$alias . "'";
-
+	public function Elimina($id, $name){
 		$cnx = $this->conectar();
-		$resultado = $cnx->query($csql);
+		$csql = "DELETE FROM usuarios WHERE id_usuario = ? AND nombre = ?";
+		
+		$stmt = $cnx->prepare($csql);
+		$stmt->bind_param("ss", $id, $name); // "ss" indica que ambos valores son cadenas (strings)
+		
+		$resultado = $stmt->execute();
+		$stmt->close();
+		
 		return $resultado;
 	}
 	
-	public function Editar($usu){
+	public function Editar($id, $name, $apP, $apM, $als, $email, $pssword){
 		$conex = $this->conectar();
-
-		$name = $usu->getNombre();
-		$apP = $usu->getApellidoP();
-		$apM = $usu->getApellidoM();
-		$alias = $usu->getAlias();
-		$correo = $usu->getCorreo();
-		$pass = $usu->getPassword();
-
-		$csql = "UPDATE usuario SET nombre = '$name', apellidoP = '$apP', apellidoM = '$apM', correo = '$correo', password = '$pass' WHERE alias = '$alias'";
-
+	
+		$csql = "UPDATE usuarios SET nombre = '$name', apellido_P = '$apP', apellido_M = '$apM', alias = '$als',correo = '$email', contrasena = '$pssword' WHERE id_usuario = '$id'";
+	
 		$resultado = $conex->query($csql);
 		return $resultado;
 	}
 	
 }
-
 ?>

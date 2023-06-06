@@ -9,10 +9,15 @@ html{
     padding: 0%;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 body{
     background-color: rgb(red, rgb(140, 198, 140), blue);
     margin: 0px;
     padding: 0px;
+    
 }
 
 a:hover{
@@ -207,21 +212,40 @@ a{
                 font-size: inherit;
                 padding: 0px;
             }
-
-            .brrBusqd{
+            .busqueda {
+                position: relative;
+            }
+            
+            .brrBusqd {
                 background-color: #050101;
                 display: flex;
                 align-items: center;
                 margin: 1px;
                 flex: 1 1 auto;
+                cursor: pointer;
+                position: relative;
+                z-index: 2;
             }
-
-                .brrBusqd input{
-                    width: 500%;
-                    border-radius: 10px;
-                     border: 2px solid #1c7fab94;
-                }
-
+            
+            .brrBusqd input {
+                width: 100%;
+                border-radius: 10px;
+                border: 2px solid #1c7fab94;
+            }
+            
+            #list {
+                display: none;
+                margin-top: 10px;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                background-color: white;
+                padding: 10px;
+                list-style: none;
+                margin: 0;
+                z-index: 3;
+            }
+                       
             .mnuPrin{
                 background-color: rgb(0, 0, 0);
                 margin: 0px;
@@ -265,6 +289,7 @@ a{
                     flex-wrap: wrap;
                     margin: 0px;
                     padding: 0px;
+                    
                 }
 
                     /*Submenus de cada producto*/
@@ -274,13 +299,14 @@ a{
                         margin: 0px;
                         padding: 0px;
                         display: none;
-                        z-index: 1;
+                        z-index: 2;
                     }
 
                     .mnu-product div ul{
                         list-style: none;
                         display: flex;
                         flex-direction: column;
+                
                     }
 
                     .mnu-product a{
@@ -307,12 +333,15 @@ a{
             margin: 0px;
             margin-bottom: 30px;
             padding: 0px;
+            position: relative;
+            z-index: 1;
         }
             .itemsCarru{
                 height: 100%;
                 position: relative;
                 margin: 0px;
                 padding: 0px;
+                z-index: 1;
 
             }
 
@@ -555,7 +584,7 @@ a{
                 margin: 0px;
                 background-color: white;
                 display: flex;
-                min-width: 200px;
+                min-width: 300px;
                 padding: 0px;
                 justify-content: center;
                 align-items: center;
@@ -584,11 +613,18 @@ a{
 
             #desc-img{
                 box-shadow: 2px 2px 4px 0px rgb(0 9 0);
-                width: 400px;
+                width: 95%;
                 height: 130px;
                 background: #d4d3d826;
                 border-radius: 6px;
             }
+
+            #desc-img span{
+                margin: 0px;
+                padding: 0px;
+                min-width: 300px;
+            }
+
 
             #dsc-prdc-img{
                 border: 2px solid red;
@@ -691,7 +727,7 @@ a{
 
             }
 footer{
-    background-color: rgba(133, 229, 227, 0.429);
+    background-color: rgba(0, 0, 0, 0);
     width: 100%;
     padding: 0px;
     display: flex;

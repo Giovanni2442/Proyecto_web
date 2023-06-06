@@ -10,6 +10,7 @@ if(!empty($_POST['agregar'])){
         }else{
             $email = $_POST['Correo'];
             $pss = $_POST['password'];
+            
             $pruebas->search($email,$pss);
         }   
     }
