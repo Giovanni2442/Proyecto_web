@@ -1,5 +1,5 @@
 <?php
-include("../pruebas/pruRegistros.php");
+include_once("../pruebas/pruRegistros.php");
 
 #OBJETIVO: Este netodo es utilizado para la validación de
 #Entrada del usuario, sirve como intermediario entre el usuario
@@ -7,7 +7,7 @@ include("../pruebas/pruRegistros.php");
 class pruRegistrar{
     
     public function agregarUsser($agrega){
-        
+        echo "HOLAAAAA";
         $pruebas = new pruRegistros();
         if (!empty($_POST[$agrega])) {
             if (

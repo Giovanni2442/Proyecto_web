@@ -72,8 +72,11 @@
                     <h2 class="nameSite">ACDC INSTRUMENTOS</h2>
                 </div>
 
+<<<<<<< HEAD
+=======
                 <!--<button class="abir">ABRIR</button>-->
 
+>>>>>>> e63e5c5b4fe809c8388fe14618a30c2727ea8b73
                 <div class="brrBusqd" onmouseover="showList()" onmouseleave="hideList()">
                     <input id="indxSearch" onkeyup="search_instrumentos()" type="text" name="indxSearc" placeholder="Buscar...">
       
@@ -158,9 +161,21 @@
                                         </li>
                                         <li>
                                             <span>
+<<<<<<< HEAD
+
+                                                <a href="seccionBajos/accesorios.html">ACCESORIÓS</a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+=======
+<<<<<<< HEAD
+=======
 
                                                 <a href="seccionBajos/accesorios.html">ACCESORIÓS</a>
 
+>>>>>>> 6af3d7e7b0e8808223874d63cff4da5e96b0d31d
+>>>>>>> e63e5c5b4fe809c8388fe14618a30c2727ea8b73
                                                 <a href="/proyecto/Proyecto_web/Vistas/guitarras/Accesorios.html">ACCESORIÓS</a>
                                             </span>
                                         </li>
@@ -189,6 +204,16 @@
                                         </li>
                                         <li>
                                             <span>
+<<<<<<< HEAD
+                                                <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/amplificadores.html">AMPLIFICADORES</a>
+                                            </span>
+                                        </li>
+=======
+<<<<<<< HEAD
+                                                <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/amplificadores.html">AMPLIFICADORES</a>
+                                            </span>
+                                        </li>
+=======
 
                                                 <a href="seccionBajos/accesorios.html">ACCESORIOS</a>
                                             </span>
@@ -207,6 +232,8 @@
                                             </span>
                                         </li>
 
+>>>>>>> 6af3d7e7b0e8808223874d63cff4da5e96b0d31d
+>>>>>>> e63e5c5b4fe809c8388fe14618a30c2727ea8b73
                                     </ul>
                                 </div>
 
@@ -238,11 +265,20 @@
                                                 <a href="seccionBajos/pedaleras.html">PEDALERAS</a>
                                             </span>
                                         </li>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> e63e5c5b4fe809c8388fe14618a30c2727ea8b73
                                         <li>
                                             <span>
                                                 <a href="seccionBajos/accesorios.html">ACCESORIOS</a>
                                             </span>
                                         </li>
+<<<<<<< HEAD
+=======
+>>>>>>> 6af3d7e7b0e8808223874d63cff4da5e96b0d31d
+>>>>>>> e63e5c5b4fe809c8388fe14618a30c2727ea8b73
                                     </ul>
                                 </div>
 
@@ -369,6 +405,12 @@
                     <div class="carousel-item">
                         <img src="ImgIndex/acdc.jpg" class="d-block w-100" alt="...">
                     </div>
+<<<<<<< HEAD
+=======
+                    <div class="carousel-item">
+                        <img src="ImgIndex/acdc.jpg" class="d-block w-100" alt="...">
+                    </div>
+>>>>>>> 7af51ba62645a110dcb6bca9d7faf33308e1ad8d
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -518,6 +560,12 @@
                     <div class="carousel-item">
                         <img src="ImgIndex/acdc.jpg" class="d-block w-100" alt="...">
                     </div>
+<<<<<<< HEAD
+=======
+                    <div class="carousel-item">
+                        <img src="ImgIndex/acdc.jpg" class="d-block w-100" alt="...">
+                    </div>
+>>>>>>> 7af51ba62645a110dcb6bca9d7faf33308e1ad8d
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>

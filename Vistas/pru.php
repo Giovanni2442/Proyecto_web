@@ -1,72 +1,27 @@
-<?php
-// Conexión a la base de datos
-$servername = "localhost";
-$username = "root";
-$password = "2442";
-$dbname = "tienda_musica";
-
-$conn = new mysqli($servername, $username, $password, $dbname);
-if ($conn->connect_error) {
-    die("Error en la conexión: " . $conn->connect_error);
-}
-
-// Consulta a la base de datos
-$sql = "SELECT * FROM usuarios";
-$result = $conn->query($sql);
-
-?>
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <style>
-        table {
-            border-collapse: collapse;
-            width: 100%;
-        }
-        
-        th, td {
-            border: 1px solid black;
-            padding: 8px;
-        }
-        
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
+<form id="formulario-elimina" class="formulario">
+                    <?php
+                       require_once '../pruebas/pruEliminar.php';
+                       $conect = new conectar();
+                       $reg = new pruEliminar();
+                       $r = $reg->elimUsser('eliminar');
+                    ?>
 
-<h2>Registros de la tabla</h2>
+                    <label for="nombre">INGRESE ID:</label>
+                    <input type="text" name="id" id="id">
 
-<table>
-    <tr>
-        <th>ID</th>
-        <th>Nombre</th>
-        <th>Apellido</th>
-        <th>Email</th>
-    </tr>
-    <?php
-    // Mostrar los registros en la tabla
-    if ($result->num_rows > 0) {
-        while ($row = $result->fetch_assoc()) {
-            echo "<tr>";
-            echo "<td>" . $row["id_usuario"] . "</td>";
-            echo "<td>" . $row["nombre"] . "</td>";
-            echo "<td>" . $row["apellido_p"] . "</td>";
-            echo "<td>" . $row["correo"] . "</td>";
-            echo "</tr>";
-        }
-    } else {
-        echo "<tr><td colspan='4'>No se encontraron registros</td></tr>";
-    }
-    ?>
-</table>
+                    <label for="email">INGRESE EL NOMBRE:</label>
+                    <input type="text" name="name" id="name" >
 
-</body>
+                    <input type="submit" name ="eliminar" value="Enviar">
+                </form>
+    </body>
 </html>
-
-<?php
-// Cerrar la conexión a la base de datos
-$conn->close();
-?>

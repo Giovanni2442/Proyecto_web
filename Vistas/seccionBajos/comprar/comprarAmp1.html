@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="estiloaccesorios.css">
+    <link rel="stylesheet" type="text/css" href="../estiloaccesorios.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +12,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>            
+      .stock {
+        border: 2px solid rgb(255, 255, 255);
+        width: 300px;
+        padding: 10px;
+        text-align: center;
+        margin: 0 auto;
+    }
+      .boton-inicio {
+        background-color: #2848e9;
+        color: rgb(237, 231, 231);
+        width: 300;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        
+    }
+    </style>
 </head>
 
 <body style="background-color:rgb(0, 0, 0);">
@@ -83,10 +102,6 @@
                         <ul class="mnu-product">
                             <li>
                                 <span>
-                                    <a href="http://localhost/proyecto/Proyecto_web/Vistas/index.php">INICIO</a>
-                                </span>
-                                
-                                <span>
                                     <a href="/proyecto/Proyecto_web/Vistas/guitarras/guitarrasGeneral.html">GUITARRAS</a>
                                 </span>
 
@@ -114,7 +129,7 @@
                                         </li>
                                         <li>
                                             <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/accesorios.html">ACCESORIÓS</a>
+                                                <a href="/proyecto/Proyecto_web/Vistas/guitarras/accesorios.html">ACCESORIÓS</a>
                                             </span>
                                         </li>
                                     </ul>
@@ -142,17 +157,7 @@
                                         </li>
                                         <li>
                                             <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/accesorios.html">ACCESORIOS</a>
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
                                                 <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/amplificadores.html">AMPLIFICADORES</a>
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/pedaleras.html">PEDALERAS</a>
                                             </span>
                                         </li>
                                     </ul>
@@ -184,11 +189,6 @@
                                         <li>
                                             <span>
                                                 <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/pedaleras.html">PEDALERAS</a>
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/accesorios.html">ACCESORIOS</a>
                                             </span>
                                         </li>
                                     </ul>
@@ -297,78 +297,47 @@
 
                 </div>
                 <div class="carrito">
-                    <img src="ImgIndex/carrito.png" alt="">
+                    <img src="../ImgIndex/carrito.png" alt="">
                 </div>
             </div>
-            <div class="card" style="background-color: rgb(0, 0, 0);">
-                <div class="row justify-content-center">
-                    <div class="col-sm-12 col-md-4 col-lg-3 col-lx-12">
-                        <div class="card" style="width: 18rem;">
-                            <img src="cuerda.jpg" class="card-img-top" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Cuerda</h5>
-                                <p class="card-text">Cuerdas para guitarra</p>
-                                <a href="#" class="btn btn-primary">comprar $150 MXN</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 col-lx-12">
-                        <div class="card" style="width: 18rem;">
-                            <img src="tail.jpg" class="card-img-top" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Tail</h5>
-                                <p class="card-text">Tail Para Guitarra</p>
-                                <a href="#" class="btn btn-primary">comprar $150 MXN</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 col-lx-12">
-                        <div class="card" style="width: 18rem;">
-                            <img src="puas.jpeg" class="card-img-top" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Puas</h5>
-                                <p class="card-text">Puas para guitarra</p>
-                                <a href="#" class="btn btn-primary">comprar $150 MXN</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 col-lx-12">
-                        <div class="card" style="width: 18rem;">
-                            <img src="capo.jpg" class="card-img-top" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Capo</h5>
-                                <p class="card-text">Capo para guitarra</p>
-                                <a href="#" class="btn btn-primary">comprar $150 MXN</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 col-lx-12">
-                        <div class="card" style="width: 18rem;">
-                            <img src="kitPuas.jpg" class="card-img-top" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Kit de puas</h5>
-                                <p class="card-text">Kit de puas para guitarra</p>
-                                <a href="#" class="btn btn-primary">comprar $150 MXN</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 col-lx-12">
-                        <div class="card" style="width: 18rem;">
-                            <img src="protector.jpg" class="card-img-top" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Protector</h5>
-                                <p class="card-text">Protector para dedos</p>
-                                <a href="#" class="btn btn-primary">comprar $100MXN</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
+        </div>
     </div>
+    <!--  Menu de compra.  -->
+    <section>
+        <h2 style="text-align: center;">Amplificador Fender Rumble Series 25</h2>
+        <div class="Img-product" style="text-align: center;">
+          <img src="../../ImgGuitarras/amp1.jpg" alt="" width="500" height="700">
+      </div>
+      </section>
+  
+      <section >
+        <h2>Descripción</h2>
+        Fender no para de crecer, continúa creando nuevos productos con sus diseños originales, 
+        característicos de la marca. Además, todos sus instrumentos son fabricados bajo altos 
+        estándares de calidad, lo que los mantiene como líderes en el mercado musical. Un ejemplo 
+        son los amplificadores, que se caracterizan por su funcionamiento sencillo, gran calidad y 
+        una salida de sonido excepcional. <br>
+        Aprovéchalo al máximo <br>
+        Si lo que buscas es un equipo que se caracterice por tener una distorsión única y mayor 
+        calidez de sonidos clásicos y orgánicos, este amplificador valvular es ideal para ti. <br>
+        <br><br>
+        Precio: $3,190 <br>
 
-    </div>
+        Tiempo de entrega: Entre 2 y 3 dias despues de la compra.<br>
+
+        Se cuenta con un maximo de 30 dias para cambios por defectos de fabrica.<br>
+      </section>
+      
+      <section>
+        <div class="stock" >
+            <h2>¡Obtenlo ahora mismo!</h2>
+            <button class="boton-compra"> <a href="http://localhost/proyecto/Proyecto_web/Vistas/comprar/cuerdas">Comprar ahora.</a></button><br>
+          </div>
+      </section>
+
+      <button class="boton-inicio"> <a href="http://localhost/proyecto/Proyecto_web/Vistas/">Inicio</a></button>
+
+
     <hr class="mb-4 text-primary">
     <footer class="bg-black">
         <div class="container text-center text-md-start">
@@ -434,15 +403,4 @@
                                         <li class="list-inline-item"><a href="https://www.linkedin.com/" class="text-light"><i
                                             class="fab fa-linkedin"></i></a></li>
                                             <li class="list-inline-item"><a href="https://www.messenger.com/" class="text-light"><i
-                                                class="fab fa-facebook-messenger"></i></a></li>            
-                </ul>
-            
-            </div>
-            
-        </div>
-    </footer>
-
-
-</body>
-
-</html>
+                                                class="fab fa-facebook-messenger"></i></a></li>     

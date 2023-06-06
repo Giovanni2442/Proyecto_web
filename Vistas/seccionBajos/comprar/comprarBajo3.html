@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="estiloaccesorios.css">
+    <link rel="stylesheet" type="text/css" href="../estiloaccesorios.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,25 +12,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style>
-        .grid-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-            grid-gap: 20px;
-        }
-        .grid-item {
-            background-color: #ccc;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
-        .grid-item img {
-            width: 100%;
-            height: 200px;
-        object-fit: contain;
-        }
+    <style>            
+      .stock {
+        border: 2px solid rgb(255, 255, 255);
+        width: 300px;
+        padding: 10px;
+        text-align: center;
+        margin: 0 auto;
+    }
+      .boton-inicio {
+        background-color: #2848e9;
+        color: rgb(237, 231, 231);
+        width: 300;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        
+    }
     </style>
 </head>
 
@@ -102,10 +101,6 @@
 
                         <ul class="mnu-product">
                             <li>
-                                <span>
-                                    <a href="http://localhost/proyecto/Proyecto_web/Vistas/index.php">INICIO</a>
-                                </span>
-                                
                                 <span>
                                     <a href="/proyecto/Proyecto_web/Vistas/guitarras/guitarrasGeneral.html">GUITARRAS</a>
                                 </span>
@@ -302,35 +297,48 @@
 
                 </div>
                 <div class="carrito">
-                    <img src="ImgIndex/carrito.png" alt="">
+                    <img src="../ImgIndex/carrito.png" alt="">
                 </div>
             </div>
-            <div class="card" style="background-color: rgb(0, 0, 0);">
-                <div class="row justify-content-center">
-                    
-                    <div class="grid-container">
-                      
-                        <div class="grid-item">
-                            <h5>Bajo Acustico </h5>
-                            <p>Bajo Acústico Full 22</p>
-                            <a href="comprar/comprarBajo1.html" class="btn btn-primary">Detalles</a>
-                            <img src="../ImgGuitarras/g1.png" alt="">
-                      </div>               
-                        <div class="grid-item">
-                            <h5>Bajo Acustico</h5>
-                            <p>Bajo Acústico Fa-450ce</p>
-                            <a href="comprar/comprarBajo4.html" class="btn btn-primary">Detalles</a>
-                            <img src="../ImgGuitarras/g4.png" alt="">
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-
+        </div>
     </div>
+    <!--  Menu de compra.  -->
+    <section>
+        <h2 style="text-align: center;">Bajo Electroacustico Fender Fa-450ce</h2>
+        <div class="Img-product" style="text-align: center;">
+          <img src="../../ImgGuitarras/g3.png" alt="" width="500" height="700">
+      </div>
+      </section>
+  
+      <section >
+        <h2>Descripción</h2>
+        No solo otro bajo bonito, el FA-450CE inspirador y sorprendentemente versátil hace que sea 
+        fácil tomar el tono de bajo Fender y sentirte donde vayas. Para actuaciones amplificadas. El 
+        sistema de preamplificador Fishman ® a bordo ofrece un sonido cristalino junto con controles 
+        de volumen, graves y agudos para dar forma con precisión a su tono. La lujosa tapa de arce de 
+        llama mejora la articulación, prestando un ataque nítido a la espalda y los lados de la caoba
+         ’ voz rica y cálida. El cuello moderno en forma de C “ C ” lleva un diapasón de radio 9.5 ” 
+         que funciona bien para casi cualquier estilo de juego. La encuadernación con crema, un 
+         cabezal moderno de 2x2, el clásico puente vikingo y la roseta ‘ keystone ’ completan las 
+         citas, agregando un toque elegante al atractivo visual del instrumento. <br>
+        <br><br>
+        Precio: $9,975 <br>
 
-    </div>
+        Tiempo de entrega: Entre 2 y 3 dias despues de la compra.<br>
+
+        Se cuenta con un maximo de 30 dias para cambios por defectos de fabrica.<br>
+      </section>
+      
+      <section>
+        <div class="stock" >
+            <h2>¡Obtenlo ahora mismo!</h2>
+            <button class="boton-compra"> <a href="http://localhost/proyecto/Proyecto_web/Vistas/comprar/cuerdas">Comprar ahora.</a></button><br>
+          </div>
+      </section>
+
+      <button class="boton-inicio"> <a href="http://localhost/proyecto/Proyecto_web/Vistas/">Inicio</a></button>
+
+
     <hr class="mb-4 text-primary">
     <footer class="bg-black">
         <div class="container text-center text-md-start">
@@ -396,15 +404,4 @@
                                         <li class="list-inline-item"><a href="https://www.linkedin.com/" class="text-light"><i
                                             class="fab fa-linkedin"></i></a></li>
                                             <li class="list-inline-item"><a href="https://www.messenger.com/" class="text-light"><i
-                                                class="fab fa-facebook-messenger"></i></a></li>            
-                </ul>
-            
-            </div>
-            
-        </div>
-    </footer>
-
-
-</body>
-
-</html>
+                                                class="fab fa-facebook-messenger"></i></a></li>     

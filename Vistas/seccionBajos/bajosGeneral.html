@@ -12,6 +12,26 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            grid-gap: 20px;
+        }
+        .grid-item {
+            background-color: #ccc;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .grid-item img {
+            width: 100%;
+            height: 200px;
+        object-fit: contain;
+        }
+    </style>
 </head>
 
 <body style="background-color:rgb(0, 0, 0);">
@@ -113,7 +133,7 @@
                                         </li>
                                         <li>
                                             <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/accesorios.html">ACCESORIÓS</a>
+                                                <a href="/proyecto/Proyecto_web/Vistas/guitarras/accesorios.html">ACCESORIÓS</a>
                                             </span>
                                         </li>
                                     </ul>
@@ -141,17 +161,7 @@
                                         </li>
                                         <li>
                                             <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/accesorios.html">ACCESORIOS</a>
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
                                                 <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/amplificadores.html">AMPLIFICADORES</a>
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/pedaleras.html">PEDALERAS</a>
                                             </span>
                                         </li>
                                     </ul>
@@ -183,11 +193,6 @@
                                         <li>
                                             <span>
                                                 <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/pedaleras.html">PEDALERAS</a>
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/accesorios.html">ACCESORIOS</a>
                                             </span>
                                         </li>
                                     </ul>
@@ -301,65 +306,52 @@
             </div>
             <div class="card" style="background-color: rgb(0, 0, 0);">
                 <div class="row justify-content-center">
-                    <div class="col-sm-12 col-md-4 col-lg-3 col-lx-12">
-                        <div class="card" style="width: 18rem;">
-                            <img src="cuerda.jpg" class="card-img-top" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Cuerda</h5>
-                                <p class="card-text">Cuerdas para guitarra</p>
-                                <a href="#" class="btn btn-primary">comprar $150 MXN</a>
-                            </div>
+                    
+                    <div class="grid-container">
+                      
+                        <div class="grid-item">
+                            <h5>Bajo Acustico </h5>
+                            <p>Bajo Acústico Full 22</p>
+                            <a href="comprar/comprarBajo1.html" class="btn btn-primary">Detalles</a>
+                            <img src="../ImgGuitarras/g1.png" alt="">
+                        </div>               
+                        <div class="grid-item">
+                            <h5>Bajo Acustico</h5>
+                            <p>Bajo Acústico Fa-450ce</p>
+                            <a href="comprar/comprarBajo4.html" class="btn btn-primary">Detalles</a>
+                            <img src="../ImgGuitarras/g4.png" alt="">
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 col-lx-12">
-                        <div class="card" style="width: 18rem;">
-                            <img src="tail.jpg" class="card-img-top" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Tail</h5>
-                                <p class="card-text">Tail Para Guitarra</p>
-                                <a href="#" class="btn btn-primary">comprar $150 MXN</a>
-                            </div>
+                        <div class="grid-item">
+                            <h5>Bajo Electrico</h5>
+                            <p>Squier Affinity Series Telecaster Deluxe</p>
+                            <a href="comprar/comprarBajo2.html" class="btn btn-primary">Detalles</a>
+                            <img src="../ImgGuitarras/g2.png" alt="">
+                        </div>               
+                        <div class="grid-item">
+                            <h5>Bajo Electrico</h5>
+                            <p>Fender Fa-450ce</p>
+                            <a href="comprar/comprarBajo3.html" class="btn btn-primary">Detalles</a>
+                            <img src="../ImgGuitarras/g3.png" alt="">
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 col-lx-12">
-                        <div class="card" style="width: 18rem;">
-                            <img src="puas.jpeg" class="card-img-top" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Puas</h5>
-                                <p class="card-text">Puas para guitarra</p>
-                                <a href="#" class="btn btn-primary">comprar $150 MXN</a>
-                            </div>
+                        <div class="grid-item">
+                            <h5>Amplificador </h5>
+                            <p>Amplificador Fender Rumble Series 25</p>
+                            <a href="comprar/comprarAmp1.html" class="btn btn-primary">Detalles</a>
+                            <img src="../ImgGuitarras/amp1.jpg" alt="">
+                        </div>               
+                        <div class="grid-item">
+                            <h5>Amplificador</h5>
+                            <p>Amplificador Fender Rumble Series 40</p>
+                            <a href="comprar/comprarAmp2.html" class="btn btn-primary">Detalles</a>
+                            <img src="../ImgGuitarras/amp2.jpg" alt="">
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 col-lx-12">
-                        <div class="card" style="width: 18rem;">
-                            <img src="capo.jpg" class="card-img-top" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Capo</h5>
-                                <p class="card-text">Capo para guitarra</p>
-                                <a href="#" class="btn btn-primary">comprar $150 MXN</a>
-                            </div>
+                        <div class="grid-item">
+                            <h5>Amplificador</h5>
+                            <p>Amplificador Fender Rumble Series 15</p>
+                            <a href="comprar/comprarAmp3.html" class="btn btn-primary">Detalles</a>
+                            <img src="../ImgGuitarras/amp3.jpg" alt="">
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 col-lx-12">
-                        <div class="card" style="width: 18rem;">
-                            <img src="kitPuas.jpg" class="card-img-top" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Kit de puas</h5>
-                                <p class="card-text">Kit de puas para guitarra</p>
-                                <a href="#" class="btn btn-primary">comprar $150 MXN</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 col-lx-12">
-                        <div class="card" style="width: 18rem;">
-                            <img src="protector.jpg" class="card-img-top" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Protector</h5>
-                                <p class="card-text">Protector para dedos</p>
-                                <a href="#" class="btn btn-primary">comprar $100MXN</a>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
