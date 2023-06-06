@@ -9,10 +9,15 @@ html{
     padding: 0%;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 body{
     background-color: rgb(red, rgb(140, 198, 140), blue);
     margin: 0px;
     padding: 0px;
+    
 }
 
 a:hover{
@@ -555,7 +560,7 @@ a{
                 margin: 0px;
                 background-color: white;
                 display: flex;
-                min-width: 200px;
+                min-width: 300px;
                 padding: 0px;
                 justify-content: center;
                 align-items: center;
@@ -584,11 +589,18 @@ a{
 
             #desc-img{
                 box-shadow: 2px 2px 4px 0px rgb(0 9 0);
-                width: 400px;
+                width: 95%;
                 height: 130px;
                 background: #d4d3d826;
                 border-radius: 6px;
             }
+
+            #desc-img span{
+                margin: 0px;
+                padding: 0px;
+                min-width: 300px;
+            }
+
 
             #dsc-prdc-img{
                 border: 2px solid red;

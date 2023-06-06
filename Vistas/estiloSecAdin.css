@@ -1,0 +1,94 @@
+
+*{
+    margin: 5px;
+    padding: 5px;
+}
+body{
+    background-color: antiquewhite;
+}
+
+    .header{
+        background-color: rgb(57, 57, 57);
+        display: flex;
+        justify-content: center;
+    }
+    
+        .Inicio{
+            background-color: rgb(224, 219, 219);
+            display: flex;
+
+        }
+        
+        .Inicio img{
+            padding: 0px;
+            margin: 0px;
+            width: auto;
+            height: 25px;
+        }
+
+
+    .PrincipalAdmin{
+        border: 2px solid blue;
+    }
+
+        .ttl-Admin{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        .ttl-Admin h1{
+            font-family:Arial, Helvetica, sans-serif
+        }
+
+        .ttl-Admin h2{
+            font-family:Arial, Helvetica, sans-serif
+        }
+
+
+        .cnt-btns{
+            border: 2px solid #3b3b3c40;
+            background: #9999994a;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .cnt-btns div{
+            border: 2px solid gray;
+            width: 150px;
+            height: 51px;
+            padding: 0px;
+            display: flex;
+            margin: 5px;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+            .btn a{
+                background: #6da1af96;
+                width: 100%;
+                padding: 0px;
+                margin: 0px;
+                display: flex;
+                height: 100%;
+                align-items: center;
+                text-decoration: none;
+                justify-content: center;
+            }
+
+            .btn:hover{
+                background-color: red;
+                color: rgb(212, 101, 138);
+            }
+
+
+
+
+
+
+
