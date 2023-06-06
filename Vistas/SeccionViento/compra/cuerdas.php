@@ -10,7 +10,11 @@ function eliminarRegistro($id) {
     }
 
     // Preparar la consulta para eliminar el registro
+<<<<<<< HEAD
+    $query = "UPDATE FROM tabla WHERE id = ?";
+=======
     $query = "DELETE FROM tabla WHERE id = ?";
+>>>>>>> 6af3d7e7b0e8808223874d63cff4da5e96b0d31d
     $statement = mysqli_prepare($conexion, $query);
 
     // Vincular el parámetro de ID a la consulta preparada

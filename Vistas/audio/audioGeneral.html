@@ -12,6 +12,26 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            grid-gap: 20px;
+        }
+        .grid-item {
+            background-color: #ccc;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .grid-item img {
+            width: 100%;
+            height: 200px;
+        object-fit: contain;
+        }
+    </style>
 </head>
 
 <body style="background-color:rgb(0, 0, 0);">
@@ -83,6 +103,9 @@
                         <ul class="mnu-product">
                             <li>
                                 <span>
+                                    <a href="http://localhost/proyecto/Proyecto_web/Vistas/index.php">INICIO</a>
+                                </span>
+                                <span>
                                     <a href="/proyecto/Proyecto_web/Vistas/guitarras/guitarrasGeneral.html">GUITARRAS</a>
                                 </span>
 
@@ -110,7 +133,7 @@
                                         </li>
                                         <li>
                                             <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/accesorios.html">ACCESORIÓS</a>
+                                                <a href="/proyecto/Proyecto_web/Vistas/guitarras/accesorios.html">ACCESORIÓS</a>
                                             </span>
                                         </li>
                                     </ul>
@@ -138,17 +161,7 @@
                                         </li>
                                         <li>
                                             <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/accesorios.html">ACCESORIOS</a>
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
                                                 <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/amplificadores.html">AMPLIFICADORES</a>
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/pedaleras.html">PEDALERAS</a>
                                             </span>
                                         </li>
                                     </ul>
@@ -180,11 +193,6 @@
                                         <li>
                                             <span>
                                                 <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/pedaleras.html">PEDALERAS</a>
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/accesorios.html">ACCESORIOS</a>
                                             </span>
                                         </li>
                                     </ul>
@@ -298,65 +306,126 @@
             </div>
             <div class="card" style="background-color: rgb(0, 0, 0);">
                 <div class="row justify-content-center">
-                    <div class="col-sm-12 col-md-4 col-lg-3 col-lx-12">
-                        <div class="card" style="width: 18rem;">
-                            <img src="cuerda.jpg" class="card-img-top" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Cuerda</h5>
-                                <p class="card-text">Cuerdas para guitarra</p>
-                                <a href="#" class="btn btn-primary">comprar $150 MXN</a>
-                            </div>
+                    
+                    <div class="grid-container">
+                      
+                        <div class="grid-item">
+                            <h5>Sistemas de Audio Profesional </h5>
+                            <p>Steelpro Lineal Tubalcain 18</p>
+                            <a href="comprar/comprarBafleSteel.html" class="btn btn-primary">Detalles</a>
+                            <img src="img/b1.jpg" alt="">
+                      </div>               
+                        <div class="grid-item">
+                            <h5>Bocina</h5>
+                            <p>Bocina Yamaha NS-F51 black</p>
+                            <a href="comprar/comprarBafleNs.html" class="btn btn-primary">Detalles</a>
+                            <img src="img/b2.jpg" alt="">
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 col-lx-12">
-                        <div class="card" style="width: 18rem;">
-                            <img src="tail.jpg" class="card-img-top" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Tail</h5>
-                                <p class="card-text">Tail Para Guitarra</p>
-                                <a href="#" class="btn btn-primary">comprar $150 MXN</a>
-                            </div>
+                        <div class="grid-item">
+                            <h5>Monitor Sonny.</h5>
+                            <p>Monitor de escenario Bose Subwoofer F1</p>
+                            <a href="comprar/comprarBafleF1.html" class="btn btn-primary">Detalles</a>
+                            <img src="img/b3.jpg" alt="">
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 col-lx-12">
-                        <div class="card" style="width: 18rem;">
-                            <img src="puas.jpeg" class="card-img-top" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Puas</h5>
-                                <p class="card-text">Puas para guitarra</p>
-                                <a href="#" class="btn btn-primary">comprar $150 MXN</a>
-                            </div>
+                        <div class="grid-item">
+                            <h5>Kit Cable</h5>
+                            <p>Cables De Conexión Profesional Sin Soldadura</p>
+                            <a href="comprar/comprarCableKit.html" class="btn btn-primary">Detalles</a>
+                            <img src="img/ca1.jpg" alt="">
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 col-lx-12">
-                        <div class="card" style="width: 18rem;">
-                            <img src="capo.jpg" class="card-img-top" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Capo</h5>
-                                <p class="card-text">Capo para guitarra</p>
-                                <a href="#" class="btn btn-primary">comprar $150 MXN</a>
-                            </div>
+                                        
+                        <div class="grid-item">
+                            <h5>Cable audio</h5>
+                            <p>Ugreen Cable De Audio Profesional</p>
+                            <a href="comprar/comprarCableCanon.html" class="btn btn-primary">Detalles</a>
+                            <img src="img/ca2.jpg" alt="">
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 col-lx-12">
-                        <div class="card" style="width: 18rem;">
-                            <img src="kitPuas.jpg" class="card-img-top" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Kit de puas</h5>
-                                <p class="card-text">Kit de puas para guitarra</p>
-                                <a href="#" class="btn btn-primary">comprar $150 MXN</a>
-                            </div>
+                    
+                        <div class="grid-item">
+                            <h5>Cable bocina</h5>
+                            <p>Cable De Bocina De Audio</p>
+                            <a href="comprar/comprarCableBocina.html" class="btn btn-primary">Detalles</a>
+                            <img src="img/ca3.jpg" alt="">
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 col-lx-12">
-                        <div class="card" style="width: 18rem;">
-                            <img src="protector.jpg" class="card-img-top" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Protector</h5>
-                                <p class="card-text">Protector para dedos</p>
-                                <a href="#" class="btn btn-primary">comprar $100MXN</a>
-                            </div>
+                        <div class="grid-item">
+                            <h5>Dj</h5>
+                            <p>Interfaz De Audio Con Mezclador De Djr</p>
+                            <a href="comprar/comprarDjMaoncaster.html" class="btn btn-primary">Detalles</a>
+                            <img src="img/d1.jpg" alt="">
                         </div>
+                                        
+                        <div class="grid-item">
+                            <h5>Dj</h5>
+                            <p>Winmix Blm12 Mezclador 12 Canales Dj</p>
+                            <a href="comprar/comprarDjWimix.html" class="btn btn-primary">Detalles</a>
+                            <img src="img/d2.jpg" alt="">
+                        </div>
+                    
+                        <div class="grid-item">
+                            <h5>Dj</h5>
+                            <p>Mezcladora Dj Pioneer</p>
+                            <a href="comprar/comprarDjPionner.html" class="btn btn-primary">Detalles</a>
+                            <img src="img/d3.jpg" alt="">
+                        </div>
+                        <div class="grid-item">
+                            <h5>Home studio</h5>
+                            <p>Kit Micrófono Nw 700 Profesional</p>
+                            <a href="comprar/comprarHomeNw.html" class="btn btn-primary">Detalles</a>
+                            <img src="img/h1.jpg" alt="">
+                        </div>
+                                        
+                        <div class="grid-item">
+                            <h5>Home studio</h5>
+                            <p >Behringer U-phoria Studio</p>
+                            <a href="comprar/comprarHomeU-phoria.html" class="btn btn-primary">Detalles</a>
+                            <img src="img/h2.jpg" alt="">
+                        </div>
+                    
+                        <div class="grid-item">
+                            <h5>Home studio</h5>
+                            <p>Paquete De Grabación Audiobox Itwo Studio</p>
+                            <a href="comprar/comprarHomeItwo.html" class="btn btn-primary">Detalles</a>
+                            <img src="img/h3.jpg" alt="">
+                        </div>
+                        <div class="grid-item">
+                            <h5>Consola</h5>
+                            <p>Yamaha TF5 de mezcla 100V/240V</p>
+                            <a href="comprar/comprarConsolaTF5.html" class="btn btn-primary">Detalles</a>
+                            <img src="img/c1.jpg" alt="">
+                        </div>
+                                        
+                        <div class="grid-item">
+                            <h5>Consola</h5>
+                            <p>Midas M32 Live Consola Digital</p>
+                            <a href="comprar/comprarConsolaM32.html" class="btn btn-primary">Detalles</a>
+                            <img src="img/c2.jpg" alt="">
+                        </div>
+                    
+                        <div class="grid-item">
+                            <h5>Consola</h5>
+                            <p>Consola Soundcraft Ui16</p>
+                            <a href="comprar/comprarConsolaUi16.html" class="btn btn-primary">Detalles</a>
+                            <img src="img/c3.jpg" alt="">
+                        </div>
+                        <div class="grid-item">
+                            <h5> Set Microfonos</h5>
+                            <p>Set De Microfonía Profesional Beyerdinamic Para Batería</p>
+                            <a href="comprar/comprarMicroSet.html" class="btn btn-primary">Detalles</a>
+                            <img src="img/m1.jpg" alt="">
+                        </div>               
+                        <div class="grid-item">
+                            <h5>Kit Microfonos</h5>
+                            <p>Kit De Microfonía Inalámbrico Uhf</p>
+                            <a href="comprar/comprarMicroKit.html" class="btn btn-primary">Detalles</a>
+                            <img src="img/m2.jpg" alt="">
+                        </div>
+                        <div class="grid-item">
+                            <h5>Microfono de boya</h5>
+                            <p>Sistema Boya De Microfonía Inalámbrica Digital</p>
+                            <a href="comprar/comprarMicroBoya.html" class="btn btn-primary">Detalles</a>
+                            <img src="img/m3.jpg" alt="">
+                        </div>
+
                     </div>
                 </div>
             </div>

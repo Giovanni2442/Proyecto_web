@@ -69,9 +69,14 @@
             <div class="busqueda">
                 <div class="logo">
                     <img src="ImgIndex/logoPru.png" alt="">
-                    <h2 class="nameSite">NOMBRE PAGINA</h2>
+                    <h2 class="nameSite">ACDC INSTRUMENTOS</h2>
                 </div>
 
+<<<<<<< HEAD
+=======
+                <!--<button class="abir">ABRIR</button>-->
+
+>>>>>>> e63e5c5b4fe809c8388fe14618a30c2727ea8b73
                 <div class="brrBusqd" onmouseover="showList()" onmouseleave="hideList()">
                     <input id="indxSearch" onkeyup="search_instrumentos()" type="text" name="indxSearc" placeholder="Buscar...">
       
@@ -122,8 +127,14 @@
 
                         <ul class="mnu-product">
                             <li>
+
+                                <span>
+                                    <a href="http://localhost/proyecto/Proyecto_web-1/Vistas/index.php">INICIO</a>
+                                </span>
+
                                 <span>
                                     <a href="guitarras/guitarras.html">GUITARRAS</a>
+                                
                                 </span>
 
                                 <div class="mnu-gtarras">
@@ -150,12 +161,21 @@
                                         </li>
                                         <li>
                                             <span>
+<<<<<<< HEAD
 
                                                 <a href="seccionBajos/accesorios.html">ACCESORIÓS</a>
                                             </span>
                                         </li>
                                         <li>
                                             <span>
+=======
+<<<<<<< HEAD
+=======
+
+                                                <a href="seccionBajos/accesorios.html">ACCESORIÓS</a>
+
+>>>>>>> 6af3d7e7b0e8808223874d63cff4da5e96b0d31d
+>>>>>>> e63e5c5b4fe809c8388fe14618a30c2727ea8b73
                                                 <a href="/proyecto/Proyecto_web/Vistas/guitarras/Accesorios.html">ACCESORIÓS</a>
                                             </span>
                                         </li>
@@ -184,9 +204,36 @@
                                         </li>
                                         <li>
                                             <span>
+<<<<<<< HEAD
                                                 <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/amplificadores.html">AMPLIFICADORES</a>
                                             </span>
                                         </li>
+=======
+<<<<<<< HEAD
+                                                <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/amplificadores.html">AMPLIFICADORES</a>
+                                            </span>
+                                        </li>
+=======
+
+                                                <a href="seccionBajos/accesorios.html">ACCESORIOS</a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <a href="seccionBajos/amplificadores.html">AMPLIFICADORES</a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <a href="seccionBajos/pedaleras.html">PEDALERAS</a>
+                                            </span>
+                                        </li>
+                                                <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/amplificadores.html">AMPLIFICADORES</a>
+                                            </span>
+                                        </li>
+
+>>>>>>> 6af3d7e7b0e8808223874d63cff4da5e96b0d31d
+>>>>>>> e63e5c5b4fe809c8388fe14618a30c2727ea8b73
                                     </ul>
                                 </div>
 
@@ -218,11 +265,20 @@
                                                 <a href="seccionBajos/pedaleras.html">PEDALERAS</a>
                                             </span>
                                         </li>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> e63e5c5b4fe809c8388fe14618a30c2727ea8b73
                                         <li>
                                             <span>
                                                 <a href="seccionBajos/accesorios.html">ACCESORIOS</a>
                                             </span>
                                         </li>
+<<<<<<< HEAD
+=======
+>>>>>>> 6af3d7e7b0e8808223874d63cff4da5e96b0d31d
+>>>>>>> e63e5c5b4fe809c8388fe14618a30c2727ea8b73
                                     </ul>
                                 </div>
 
