@@ -1,8 +1,5 @@
 <?php
-#include ("../pruebas/pruRegistros.php");
-echo " Simon";
-
-header("Location: ../Administrar/AdmUsuarios.php");
+include_once ("../pruebas/pruRegistros.php");
 class pruModificar{
      
     public function modUsser($mod){

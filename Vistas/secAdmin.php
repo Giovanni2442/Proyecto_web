@@ -30,10 +30,10 @@
                 <div class="cnt-btns">
                     
                         <div class="btn">
-                            <a href="../Administrar/AdmUsuarios.php">
+                            <a href="../Vistas/amplificadores.php">
                                 <span>USUARIOS</span>
                             </a>
-                        
+                           
                         </div>
                     
                         <div class="btn">
@@ -42,6 +42,10 @@
                             </a>
 
                         </div>
+                </div>
+
+                <div>
+                    
                 </div>
                 
             </div>

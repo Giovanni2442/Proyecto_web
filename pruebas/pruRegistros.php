@@ -39,9 +39,8 @@ class pruRegistros{
     }
 
     public function update($name,$als,$apP,$apM,$email,$pss){
-        //$conex = new conectar();
+        $conex = new conectar();
         
-       # $this->usu = new clase_usuario();
         $conex = new conectar();
         echo $conex;
         if($conex){
