@@ -21,9 +21,12 @@
         <section class="cntform">
 
             <form  method="POST" class="form">
-                 <?php
+                <?php
                     include "../pruebas/pruRegistrar.php";
-                 ?>
+
+                   $register = new pruRegistrar();
+                   $add = $register->agregarUsser('agregar');
+                ?>
             
                 <div class="name">
                     <p>Nombre : </p>

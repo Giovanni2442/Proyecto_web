@@ -8,6 +8,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="/jquery.dataTables.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.11.3/datatables.min.css"/>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.11.3/datatables.min.js"></script>
+
 </head>
 <body>
     <div class="principal">
@@ -52,7 +58,7 @@
                     <div class="inicioSec">
                         <img src="ImgIndex/candado.webp">
                         <a href="iniciar.php">
-                            Iniciar Seción
+                            Iniciar Sesión
                         </a>
 
                     </div>
@@ -63,48 +69,101 @@
             <div class="busqueda">
                 <div class="logo">
                     <img src="ImgIndex/logoPru.png" alt="">
-                    <h2 class="nameSite">NOMBRE PAGINA</h2>
+                    <h2 class="nameSite">ACDC INSTRUMENTOS</h2>
                 </div>
 
-                <button class="abir">ABRIR</button>
+                <!--<button class="abir">ABRIR</button>-->
 
-                <div class="brrBusqd">
-                    <input type="text" id="indxSearch" name="indxSearc" placeholder = "Buscar...">
+                <div class="brrBusqd" onmouseover="showList()" onmouseleave="hideList()">
+                    <input id="indxSearch" onkeyup="search_instrumentos()" type="text" name="indxSearc" placeholder="Buscar...">
+      
+                
+                <!-- ordered list--> 
+                
+                <ol id='list' class="list-hidden">
+                    <li class=""><a href="/proyecto/Proyecto_web/Vistas/guitarras/guitarrasGeneral.html">GUITARRAS</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/guitarras/guitarrasElectricas.html">GUITARRAS ELECTRICAS</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/guitarras/guitarrasAcusticas.html">ACUSTICAS</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/guitarras/requinto.html">REQUINTO</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/guitarras/ukelele.html">UKELELE</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/seccionBajos/accesorios.html">ACCESORIÓS</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/seccionBajos/bajosGeneral.html">BAJOS</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/seccionBajos/Bajoelectrico.html">BAJO ELECTRICO</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/seccionBajos/bajoAcustico.html">BAJO ELECTROACÚSTICO</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/seccionBajos/accesorios.html">ACCESORIOS</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/seccionBajos/amplificadores.html">AMPLIFICADORES</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/seccionBajos/pedaleras.html">PEDALERAS</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/percusiones/percusionesGeneral.html">PERCUCIONES</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/Percusiones/baterias.html">BATERÍAS</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/Percusiones/percusiones.HTML">PERCUCIÓNES</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/Percusiones/platillos.html">PLATILLOS</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/seccionBajos/pedaleras.html">PEDALERAS</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/seccionBajos/accesorios.html">ACCESORIOS</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/seccionViento/vientoGeneral.html">VIENTO</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/seccionViento/trompetas.html">TROMPETAS</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/seccionViento/flautas.html">FLAUTAS</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/seccionViento/metales.html">METALES</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/audio/audioGeneral.html">AUDIO</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/audio/microfonia.html">MICROFONIA</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/audio/bafles.html">BAFLES ACTIVO PASIVO</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/audio/mezcladorasConsolas.html">MEZCALDORAS Y CONSOLAS</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/audio/homeStudio.html">HOME STUDIO</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/audio/djsets.html">DJ´S SETS</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/audio/cables.html">ACCESORIOS, CABLES ETC...</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/Teclados/tecladosGeneral.html">TECLADOS</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/Teclados/pianoElectrico.html">PIANO ELECTRICO</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/Teclados/pianoClasico.html">PIANO CLASICO</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/Teclados/pianoControlador.html">PIANO CONTROLADOR</a></li>
+                    <li class="instrumentos"><a href="/proyecto/Proyecto_web/Vistas/Teclados/sintetizadores.html">SINTETIZADORES</a></li>
+                    
+                </ol>
                 </div>
-
+            
                 <div class="mnuPrin">
                     <nav>
 
                         <ul class="mnu-product">
                             <li>
+
                                 <span>
-                                    <a href="/proyecto/Proyecto_web/Vistas/guitarras/guitarrasGeneral.html">GUITARRAS</a>
+                                    <a href="http://localhost/proyecto/Proyecto_web-1/Vistas/index.php">INICIO</a>
+                                </span>
+
+                                <span>
+                                    <a href="guitarras/guitarras.html">GUITARRAS</a>
+                                
                                 </span>
 
                                 <div class="mnu-gtarras">
                                     <ul>
                                         <li>
                                             <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/guitarras/guitarrasElectricas.html">GUITARRAS ELECTRICAS</a>
+                                                <a href="guitarras/guitarrasElectricas.html">GUITARRAS ELECTRICAS</a>
                                             </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/guitarras/guitarrasAcusticas.html">ACUSTICAS</a>
+                                                <a href="guitarras/guitarrasAcusticas.html">ACUSTICAS</a>
                                             </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/guitarras/requinto.html">REQUINTO</a>
+                                                <a href="guitarras/requinto.html">REQUINTO</a>
                                             </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/guitarras/ukelele.html">UKELELE</a>
+                                                <a href="guitarras/ukelele.html">UKELELE</a>
                                             </span>
                                         </li>
                                         <li>
                                             <span>
+<<<<<<< HEAD
+=======
+
+                                                <a href="seccionBajos/accesorios.html">ACCESORIÓS</a>
+
+>>>>>>> 6af3d7e7b0e8808223874d63cff4da5e96b0d31d
                                                 <a href="/proyecto/Proyecto_web/Vistas/guitarras/Accesorios.html">ACCESORIÓS</a>
                                             </span>
                                         </li>
@@ -115,123 +174,111 @@
                             </li>
                             <li>
                                 <span>
-                                    <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/bajosGeneral.html">BAJOS</a>
+                                    <a href="seccionBajos/bajosGeneral.html">BAJOS</a>
                                 </span>
 
                                 <div class="mnu-bajos">
                                     <ul>
                                         <li>
                                             <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/Bajoelectrico.html">BAJO ELECTRICO</a>
+                                                <a href="seccionBajos/Bajoelectrico.html">BAJO ELECTRICO</a>
                                             </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/bajoAcustico.html">BAJO
+                                                <a href="seccionBajos/bajoAcustico.html">BAJO
                                                     ELECTROACÚSTICO</a>
                                             </span>
                                         </li>
                                         <li>
                                             <span>
+<<<<<<< HEAD
                                                 <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/amplificadores.html">AMPLIFICADORES</a>
                                             </span>
                                         </li>
+=======
+
+                                                <a href="seccionBajos/accesorios.html">ACCESORIOS</a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <a href="seccionBajos/amplificadores.html">AMPLIFICADORES</a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <a href="seccionBajos/pedaleras.html">PEDALERAS</a>
+                                            </span>
+                                        </li>
+                                                <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/amplificadores.html">AMPLIFICADORES</a>
+                                            </span>
+                                        </li>
+
+>>>>>>> 6af3d7e7b0e8808223874d63cff4da5e96b0d31d
                                     </ul>
                                 </div>
 
                             </li>
                             <li>
                                 <span>
-                                    <a href="/proyecto/Proyecto_web/Vistas/percusiones/percusionesGeneral.html">PERCUCIONES</a>
+                                    <a href="percusiones/percusionesGeneral.html">PERCUCIONES</a>
                                 </span>
 
                                 <div class="mnu-prcuciones">
                                     <ul>
                                         <li>
                                             <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/Percusiones/baterias.html">BATERÍAS</a>
+                                                <a href="Percusiones/baterias.html">BATERÍAS</a>
                                             </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/Percusiones/percusiones.HTML">PERCUCIÓNES</a>
+                                                <a href="Percusiones/percusiones.HTML">PERCUCIÓNES</a>
                                             </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/Percusiones/platillos.html">PLATILLOS</a>
+                                                <a href="Percusiones/platillos.html">PLATILLOS</a>
                                             </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/pedaleras.html">PEDALERAS</a>
+                                                <a href="seccionBajos/pedaleras.html">PEDALERAS</a>
                                             </span>
                                         </li>
+<<<<<<< HEAD
+=======
+                                        <li>
+                                            <span>
+                                                <a href="seccionBajos/accesorios.html">ACCESORIOS</a>
+                                            </span>
+                                        </li>
+>>>>>>> 6af3d7e7b0e8808223874d63cff4da5e96b0d31d
                                     </ul>
                                 </div>
 
                             </li>
                             <li>
                                 <span>
-                                    <a href="/proyecto/Proyecto_web/Vistas/seccionViento/vientoGeneral.html">VIENTO</a>
+                                    <a href="seccionViento/vientoGeneral.html">VIENTO</a>
                                 </span>
 
                                 <div class="mnu-viento">
                                     <ul>
                                         <li>
                                             <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/seccionViento/trompetas.html">TROMPETAS</a>
+                                                <a href="seccionViento/trompetas.html">TROMPETAS</a>
                                             </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/seccionViento/flautas.html">FLAUTAS</a>
+                                                <a href="seccionViento/flautas.html">FLAUTAS</a>
                                             </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/seccionViento/metales.html">METALES</a>
-                                            </span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-
-                            <li>
-                                <span>
-                                    <a href="/proyecto/Proyecto_web/Vistas/audio/audioGeneral.html">AUDIO</a>
-                                </span>
-
-                                <div class="mnu-audio">
-                                    <ul>
-                                        <li>
-                                            <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/audio/microfonia.html">MICROFONIA</a>
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/audio/bafles.html">BAFLES ACTIVO PASIVO</a>
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/audio/mezcladorasConsolas.html">MEZCALDORAS Y CONSOLAS</a>
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/audio/homeStudio.html">HOME STUDIO</a>
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/audio/djsets.html">DJ´S SETS</a>
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/audio/cables.html">ACCESORIOS, CABLES ETC...</a>
+                                                <a href="seccionViento/metales.html">METALES</a>
                                             </span>
                                         </li>
                                     </ul>
@@ -240,29 +287,70 @@
 
                             <li>
                                 <span>
-                                    <a href="/proyecto/Proyecto_web/Vistas/Teclados/tecladosGeneral.html">TECLADOS</a>
+                                    <a href="audio/audioGeneral.html">AUDIO</a>
                                 </span>
 
                                 <div class="mnu-audio">
                                     <ul>
                                         <li>
                                             <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/Teclados/pianoElectrico.html">PIANO ELECTRICO</a>
+                                                <a href="audio/microfonia.html">MICROFONIA</a>
                                             </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/Teclados/pianoClasico.html">PIANO CLASICO</a>
+                                                <a href="audio/bafles.html">BAFLES ACTIVO PASIVO</a>
                                             </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/Teclados/pianoControlador.html">PIANO CONTROLADOR</a>
+                                                <a href="audio/mezcladorasConsolas.html">MEZCALDORAS Y CONSOLAS</a>
                                             </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <a href="/proyecto/Proyecto_web/Vistas/Teclados/sintetizadores.html">SINTETIZADORES</a>
+                                                <a href="audio/homeStudio.html">HOME STUDIO</a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <a href="audio/djsets.html">DJ´S SETS</a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <a href="audio/cables.html">ACCESORIOS, CABLES ETC...</a>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li>
+                                <span>
+                                    <a href="Teclados/tecladosGeneral.html">TECLADOS</a>
+                                </span>
+
+                                <div class="mnu-audio">
+                                    <ul>
+                                        <li>
+                                            <span>
+                                                <a href="Teclados/pianoElectrico.html">PIANO ELECTRICO</a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <a href="Teclados/pianoClasico.html">PIANO CLASICO</a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <a href="Teclados/pianoControlador.html">PIANO CONTROLADOR</a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <a href="Teclados/sintetizadores.html">SINTETIZADORES</a>
                                             </span>
                                         </li>
                                     </ul>
@@ -383,7 +471,6 @@
                             <div class="product-description">
                             </div>
                         </div>
-                        
                     </div>
       
             </div>
@@ -427,14 +514,15 @@
                 <!--Contenido del carrucel-->
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
+
                     <div class="carousel-item active">
-                    <img src="ImgIndex/teclado.webp" class="d-block w-100" alt="...">
+                        <img src="ImgIndex/teclado.webp" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                    <img src="ImgIndex/Drums.jpg" class="d-block w-100" alt="...">
+                        <img src="ImgIndex/Drums.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                    <img src="ImgIndex/Drums.jpg" class="d-block w-100" alt="...">
+                        <img src="ImgIndex/Drums.jpg" class="d-block w-100" alt="...">
                     </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -456,22 +544,31 @@
                     <div class="cont-prdc">
                         <img src="ImgPromo/Bosina.webp" alt="">   
                         <div id="desc-img">
-                            <span><b>CONTENIDO:</b><br> BOCINA BLUETOOTH SELECT SOUND BT1406 TECNOLÓGIA TWS<br> <h1>$269.00 mxn</h1></span>
+                            <span>
+                                <br> BOCINA BLUETOOTH SELECT SOUND BT1406 TECNOLÓGIA TWS<br>
+                                <h1>$269.00 mxn</h1>
+                            </span>
                         </div>
                     </div>
 
                     <div class="cont-prdc">
                         <img src="ImgPromo/bocina.jpg" alt="">   
                         <div id="desc-img">
-                            <span><b>CONTENIDO:</b> <br>KIT PARA BOCINA KIT 15PS76-8 OHM <br><h1>$1,155.00 mxn</h1></span>
+                            <span>
+                                <br> BOCINA BLUETOOTH SELECT SOUND BT1406 TECNOLÓGIA TWS<br>
+                                <h1>$269.00 mxn</h1>
+                            </span>
                         </div>
                     </div>
 
                     <div class="cont-prdc">   
                         <img src="ImgPromo/MICRÓFONO_DECONDENSADOR.webp" alt="">   
                         <div id="desc-img">
-                            <span><b>CONTENIDO:</b><br> MICRÓFONO DE CONDENSADOR CARDIOIDE AT2020 AUDIO TECHNICA <br><h1>$2,065.00 mxn</h1> </span>
-                        </div> 
+                            <span>
+                                <br> BOCINA BLUETOOTH SELECT SOUND BT1406 TECNOLÓGIA TWS<br>
+                                <h1>$269.00 mxn</h1>
+                            </span>
+                        </div>
                     </div>
                 </div>
                <!--Seccion 2-->
@@ -479,21 +576,30 @@
                     <div class="cont-prdc">
                         <img src="ImgPromo/microfono_D5C_AKG.webp" alt="">   
                         <div id="desc-img">
-                            <span><b>CONTENIDO:</b><br>MICRÓFONO DINÁMICO D5C AKG <br><h1>$2,265.00 mxn</h1></span>
+                            <span>
+                                <br> BOCINA BLUETOOTH SELECT SOUND BT1406 TECNOLÓGIA TWS<br>
+                                <h1>$269.00 mxn</h1>
+                            </span>
                         </div>
                     </div>
         
                     <div class="cont-prdc"> 
                         <img src="ImgPromo/controlador_KEYLAB_ESSENTIAL.webp" alt="">   
                         <div id="desc-img">
-                            <span><b>CONTENIDO:</b><br>TECLADO DIGITAL EK-50 L KORG <br><h1>$20,530.00 mxn</h1></span>
+                            <span>
+                                <br> BOCINA BLUETOOTH SELECT SOUND BT1406 TECNOLÓGIA TWS<br>
+                                <h1>$269.00 mxn</h1>
+                            </span>
                         </div>
                     </div>
 
                     <div class="cont-prdc"> 
                         <img src="ImgPromo/microfonos_mani_SAR21_SAMSON.webp" alt="">   
                         <div id="desc-img">
-                            <span><b>CONTENIDO:</b><br>BEHRINGER XM1800S MICRÓFONOS DINÁMICOS E INSTRUMENTALES(JUEGO DE 3)<br><h1>$1,500.00 mxn</h1></span>
+                            <span>
+                                <br> BOCINA BLUETOOTH SELECT SOUND BT1406 TECNOLÓGIA TWS<br>
+                                <h1>$269.00 mxn</h1>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -502,21 +608,30 @@
                     <div class="cont-prdc">
                         <img src="ImgPromo/micorfono_AT2035.webp" alt="">   
                         <div id="desc-img">
-                            <span><b>CONTENIDO:</b> <br>MICRÓFONO DE CONDENSADOR MACKIE USB EM-91CU <br><h1>$1,580.00 mxn</h1></span>
+                            <span>
+                                <br> BOCINA BLUETOOTH SELECT SOUND BT1406 TECNOLÓGIA TWS<br>
+                                <h1>$269.00 mxn</h1>
+                            </span>
                         </div>
                     </div>
         
                     <div class="cont-prdc"> 
                         <img src="ImgPromo/audifonos_K72_AKG.webp" alt="">   
                         <div id="desc-img">
-                            <span><b>CONTENIDO:</b> <br>AUDÍFONOS DE ESTUDIO ATH-M30X AUDIO TECHNICA <br><h1>$1,865.00 mxn</h1></span>
+                            <span>
+                                <br> BOCINA BLUETOOTH SELECT SOUND BT1406 TECNOLÓGIA TWS<br>
+                                <h1>$269.00 mxn</h1>
+                            </span>
                         </div>
                     </div>
 
                     <div class="cont-prdc"> 
                         <img src="ImgPromo/amplificador4_canales_SAQH4_SAMSON.webp" alt="">   
                         <div id="desc-img">
-                            <span><b>CONTENIDO:</b> <br>SAMSON QH4 AMPLIFICADOR DE AURICULARES DE ESTUDIO DE 4 CANALES, NEGRO/PLATEADO <br><h1>$2,027.00 mxn</h1></span>
+                            <span>
+                                <br> BOCINA BLUETOOTH SELECT SOUND BT1406 TECNOLÓGIA TWS<br>
+                                <h1>$269.00 mxn</h1>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -595,7 +710,39 @@
         <footer>
             <div class="inf-pgn">
                 <div id="ttl-mnu-prin">
-                    <!-- <span>MENU PRINCIPAL</span> -->
+                    <span>MENU PRINCIPAL</span>
+                    <ul>
+                        <li>
+                            <span>
+                               <a href="#">GUITARRAS</a>
+                            </span>
+                        </li>
+
+                        <li>
+                            <span>
+                                <a href="#">BAJOS</a>
+                            </span>
+                        </li>
+
+                       <li>
+                            <span>
+                                <a href="#">METALES</a>
+                            </span>
+                        </li>
+
+                        <li>
+                            <span>
+                                <a href="#">METALES</a>
+                            </span>
+                        </li>
+
+                        <li>
+                            <span>
+                                <a href="#">METALES</a>
+                            </span>
+                        </li>
+                    </ul>
+
                     <!--Agregar Lista
                         Guitarras
                         Bajos
@@ -613,7 +760,7 @@
                         Audio
                         Accesorios-->
                 </div>
-
+            
                 <div id="ttl-mnu-prin">
                    <!-- <span>CONTACTO</span> -->
                     <!--Agregar Lista
@@ -625,6 +772,14 @@
                 </div>
 
                 <div id="ttl-mnu-prin">
+                    <ul>
+                        <li>
+                            <span>
+                                <a href="">REFERENCIA DE PRUEBA</a>
+                            </span>
+
+                        </li>
+                    </ul>
                    <!-- <span>POLITICAS</span>--->
                     <!--Agregar Lista
                         Guitarras
@@ -640,11 +795,11 @@
             <div class = "cotc-mnu">
                 <span><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2002.444701062882!2d-101.62910665467122!3d21.109049238113272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbe6f8e8cdbf7%3A0xff3c8cc2b5af98fc!2sInstituto%20Tecnol%C3%B3gico%20de%20Le%C3%B3n!5e0!3m2!1ses!2smx!4v1684703937941!5m2!1ses!2smx" width="500" height="270" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></span>
             </div>
-
         </footer>
 
     </div>
     <Script src="../Scripts/carrucelAuto.js"></Script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="../Scripts/busqueda.js"></script>
 </body>
 </html>
