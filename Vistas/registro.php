@@ -22,7 +22,7 @@
 
             <form  method="POST" class="form">
                 <?php
-                    include "../pruebas/pruRegistrar.php";
+                    include_once "../pruebas/pruRegistrar.php";
 
                    $register = new pruRegistrar();
                    $add = $register->agregarUsser('agregar');

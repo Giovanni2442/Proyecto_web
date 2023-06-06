@@ -2,30 +2,18 @@
 
  #--Esta clase tiene como objetivo validar
    #la conexión con la base de datos y setear
-   #los atributso del usuario
+   #los atributos del usuario
    include_once("../persistencia/conectar.php");
    include_once("../usuario/clase_usuario.php");
 class pruRegistros{
    
-/*
-    private $usu;
-    private $conex;
-    //Metodo constructor de Usuario
-    public function __construct(){
-        $this->usu = new clase_usuario();
-    }
-    //Metodo constructor de Conexión
-    public function varificar(){
-        $this->conex = new conectar();
-    } */
-
-    public function delete($als){
+    public function delete($id,$name){
         $con = new conectar();
         if($con){
             echo "conectado";
             //$ali = "as";
-            $resultado = $con->Elimina($als);
-            echo "-->".$resultado;
+            $resultado = $con->Elimina($id,$name);
+            
             if($resultado){
                 echo "Se elimin0";
             }else{
@@ -38,11 +26,25 @@ class pruRegistros{
         }
     }
 
+    public function update2($id,$name,$apP,$apM,$als,$email,$pss){
+        $con = new conectar();
+        echo "Conectado";
+        if($con){
+            $rest = $con->Editar($id,$name,$apP,$apM,$als,$email,$pss);
+            if($rest){
+                echo "<div>Usuario Actualizado</div>";
+            }else{
+                echo "<div>No se puedo actualizar</div>";
+            }
+
+        }else{
+            echo "Conexión fallida";
+        }
+    }
+
     public function update($name,$als,$apP,$apM,$email,$pss){
-        //$conex = new conectar();
-        
-       # $this->usu = new clase_usuario();
         $conex = new conectar();
+        
         echo $conex;
         if($conex){
             echo "Conectado";
@@ -55,7 +57,7 @@ class pruRegistros{
             $usu->setAlias($als);
             $usu->setPassword($pss);
 
-            $result = $conex->Editar($usu);
+            $result = $conex->Editar($usu,$name,$als,$apP,$apM,$email,$pss);
             echo "-->".$result;
             if($result){
                 echo "Se pud0";
@@ -71,7 +73,7 @@ class pruRegistros{
 
     public function add($nombre,$apellidoP,$apellidoM,$alias,$Correo,$pss){
         $con = new conectar();
-        
+        echo "JIJIJII";
         if($con){
             //echo "Conectado";
             #   $nombre = "hola";
@@ -96,10 +98,8 @@ class pruRegistros{
                 throw new Exception( "<div class='msgErrCn'>Error al conectar</div>");
             }
     
-        }else{
+            }else{
             
-            echo "Hola";
-            echo $con,"III";
             echo "<div class='msgDesconected'>Desconectado</div>";
         }
     }
