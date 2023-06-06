@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../../guitarras/guitarras.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>            
+      .stock {
+        border: 2px solid rgb(255, 255, 255);
+        width: 300px;
+        padding: 10px;
+        text-align: center;
+        margin: 0 auto;
+    }
+      .boton-inicio {
+        background-color: #2848e9;
+        color: rgb(237, 231, 231);
+        width: 300;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        
+    }
+    </style>
+</head>
+
+<body style="background-color:rgb(0, 0, 0);">
+    <div class="principal">
+        <header class="header">
+            <div class="usuario">
+                <div class="cntContact">
+                    <div class="correo">
+                        <img src="/proyecto/Proyecto_web/Vistas/ImgIndex/sobre.png">
+                        <a href="">
+                            prueba@test.com
+                        </a>
+                    </div>
+
+                    <div class="numero">
+                        <img src="/proyecto/Proyecto_web/Vistas/ImgIndex/whatsapp.png">
+                        <a href="">
+                            477 725 0511
+                        </a>
+
+                    </div>
+
+                    <div class="contacto">
+                        <a href="">
+                            <img src="/proyecto/Proyecto_web/Vistas/ImgIndex/facebook.png">
+                        </a>
+                        <a href="">
+                            <img src="/proyecto/Proyecto_web/Vistas/ImgIndex/Instagram.png">
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="cntRegister">
+                    <div class="registro">
+                        <img src="/proyecto/Proyecto_web/Vistas/ImgIndex/registro.png">
+                        <a href="/proyecto/Proyecto_web/Vistas/registro.php">
+                            Registrarse
+                        </a>
+
+                    </div>
+                    <div class="inicioSec">
+                        <img src="/proyecto/Proyecto_web/Vistas/ImgIndex/candado.webp">
+                        <a href="/proyecto/Proyecto_web/Vistas/iniciar.php">
+                            Iniciar Seción
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="busqueda">
+                <div class="logo">
+                    <img src="/proyecto/Proyecto_web/Vistas/ImgIndex/logoPru.png" alt="">
+                    <h2 class="nameSite">NOMBRE PAGINA</h2>
+                </div>
+
+                <button class="abir">ABRIR</button>
+
+                <div class="brrBusqd">
+                    <input type="text" id="indxSearch" name="indxSearc" placeholder="Buscar...">
+                </div>
+
+                <div class="mnuPrin">
+                    <nav>
+
+                        <ul class="mnu-product">
+                            <li>
+                                <span>
+                                    <a href="/proyecto/Proyecto_web/Vistas/guitarras/guitarrasGeneral.html">GUITARRAS</a>
+                                </span>
+
+                                <div class="mnu-gtarras">
+                                    <ul>
+                                        <li>
+                                            <span>
+                                                <a href="/proyecto/Proyecto_web/Vistas/guitarras/guitarrasElectricas.html">GUITARRAS ELECTRICAS</a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <a href="/proyecto/Proyecto_web/Vistas/guitarras/guitarrasAcusticas.html">ACUSTICAS</a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <a href="/proyecto/Proyecto_web/Vistas/guitarras/requinto.html">REQUINTO</a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <a href="/proyecto/Proyecto_web/Vistas/guitarras/ukelele.html">UKELELE</a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <a href="/proyecto/Proyecto_web/Vistas/guitarras/accesorios.html">ACCESORIÓS</a>
+                                            </span>
+                                        </li>
+                                    </ul>
+
+                                </div>
+
+                            </li>
+                            <li>
+                                <span>
+                                    <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/bajosGeneral.html">BAJOS</a>
+                                </span>
+
+                                <div class="mnu-bajos">
+                                    <ul>
+                                        <li>
+                                            <span>
+                                                <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/Bajoelectrico.html">BAJO ELECTRICO</a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/bajoAcustico.html">BAJO
+                                                    ELECTROACÚSTICO</a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/amplificadores.html">AMPLIFICADORES</a>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+                            <li>
+                                <span>
+                                    <a href="/proyecto/Proyecto_web/Vistas/percusiones/percusionesGeneral.html">PERCUCIONES</a>
+                                </span>
+
+                                <div class="mnu-prcuciones">
+                                    <ul>
+                                        <li>
+                                            <span>
+                                                <a href="/proyecto/Proyecto_web/Vistas/Percusiones/baterias.html">BATERÍAS</a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <a href="/proyecto/Proyecto_web/Vistas/Percusiones/percusiones.HTML">PERCUCIÓNES</a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <a href="/proyecto/Proyecto_web/Vistas/Percusiones/platillos.html">PLATILLOS</a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/pedaleras.html">PEDALERAS</a>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+                            <li>
+                                <span>
+                                    <a href="/proyecto/Proyecto_web/Vistas/seccionViento/vientoGeneral.html">VIENTO</a>
+                                </span>
+
+                                <div class="mnu-viento">
+                                    <ul>
+                                        <li>
+                                            <span>
+                                                <a href="/proyecto/Proyecto_web/Vistas/seccionViento/trompetas.html">TROMPETAS</a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <a href="/proyecto/Proyecto_web/Vistas/seccionViento/flautas.html">FLAUTAS</a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <a href="/proyecto/Proyecto_web/Vistas/seccionViento/metales.html">METALES</a>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li>
+                                <span>
+                                    <a href="/proyecto/Proyecto_web/Vistas/audio/audioGeneral.html">AUDIO</a>
+                                </span>
+
+                                <div class="mnu-audio">
+                                    <ul>
+                                        <li>
+                                            <span>
+                                                <a href="/proyecto/Proyecto_web/Vistas/audio/microfonia.html">MICROFONIA</a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <a href="/proyecto/Proyecto_web/Vistas/audio/bafles.html">BAFLES ACTIVO PASIVO</a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <a href="/proyecto/Proyecto_web/Vistas/audio/mezcladorasConsolas.html">MEZCALDORAS Y CONSOLAS</a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <a href="/proyecto/Proyecto_web/Vistas/audio/homeStudio.html">HOME STUDIO</a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <a href="/proyecto/Proyecto_web/Vistas/audio/djsets.html">DJ´S SETS</a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <a href="/proyecto/Proyecto_web/Vistas/audio/cables.html">ACCESORIOS, CABLES ETC...</a>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li>
+                                <span>
+                                    <a href="/proyecto/Proyecto_web/Vistas/Teclados/tecladosGeneral.html">TECLADOS</a>
+                                </span>
+
+                                <div class="mnu-audio">
+                                    <ul>
+                                        <li>
+                                            <span>
+                                                <a href="/proyecto/Proyecto_web/Vistas/Teclados/pianoElectrico.html">PIANO ELECTRICO</a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <a href="/proyecto/Proyecto_web/Vistas/Teclados/pianoClasico.html">PIANO CLASICO</a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <a href="/proyecto/Proyecto_web/Vistas/Teclados/pianoControlador.html">PIANO CONTROLADOR</a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <a href="/proyecto/Proyecto_web/Vistas/Teclados/sintetizadores.html">SINTETIZADORES</a>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+                <div class="carrito">
+                    <img src="../ImgIndex/carrito.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  Menu de compra.  -->
+    <section class="rojo">
+        <h2 style="text-align: center;">Guitarra electrica TeleCaster</h2>
+        <div class="Img-product" style="text-align: center;">
+          <img src="../img/electrica 2.jpg" alt="" width="500" height="700">
+      </div>
+      </section>
+  
+      <section class="rojo">
+        <h2>Descripción</h2>
+        la Stratocaster ganó en popularidad por su atractivo Rock’n Roll, 
+        entonces la Telecaster vendría a ser la versión Country. De hecho, esta 
+        guitarra se introdujo antes de la Stratocaster, y originalmente se la conocía como la Broadcaster. <br>
+        La Telecaster tiene un solo corte, lo que facilita su identificación. Más allá del Country, 
+        la Telecaster es en realidad una guitarra bastante versátil. Por ejemplo, tanto Kurt Cobain como 
+        Jack White usaron una Telecaster en el estudio.
+        <br><br>
+        Precio: $10,509 <br>
+
+        Tiempo de entrega: Entre 2 y 3 dias despues de la compra.<br>
+
+        Se cuenta con un maximo de 30 dias para cambios por defectos de fabrica.<br>
+      </section>
+      
+      <section class="rojo">
+        <div class="stock" >
+            <h2>¡Obtenlo ahora mismo!</h2>
+            <button class="boton-compra"> <a href="http://localhost/proyecto/Proyecto_web/Vistas/comprar/cuerdas">Comprar ahora.</a></button><br>
+          </div>
+      </section>
+
+      <button class="boton-inicio"> <a href="http://localhost/proyecto/Proyecto_web/Vistas/">Inicio</a></button>
+
+
+    <hr class="mb-4 text-primary">
+    <footer class="bg-black">
+        <div class="container text-center text-md-start">
+            <div class="row">
+                <div class="col-md-12 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Nosotros</h5>
+                    <hr class="mb-4 text-primary">
+                    <p style="color: white;">
+                        Tienda donde ofrecemos una amplia variedad de guitarras,
+                        desde clásicas y acústicas hasta eléctricas y de jazz.
+                        Desde los Marzo del 78 cautivando a musicos en mejorar sus
+                        instrumentos tienda especializada en guitarras vintage y únicas,
+                        contamos con una trayectoria historica de décadas pasadas.
+                        Compartía con entusiasmo los detalles y curiosidades con clientes.
+                    </p>
+                </div>
+                <div class="col-md-6 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Ayuda</h5>
+                    <hr class="mb-4 text-primary">
+                    <p><a href="#" class="text-light">Envio</a></p>
+                    <p><a href="#" class="text-light">Devolución</a></p>
+                    <p><a href="#" class="text-light">Reembolso</a></p>
+                    <p><a href="#" class="text-light">Rastrear Pedido</a></p>
+                </div>
+                <div class="col-md-6 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Servicio Cliente</h5>
+                    <hr class="mb-4 text-primary">
+                    <p><a href="#" class="text-light">Bolsa de empleo</a></p>
+                    <p><a href="#" class="text-light">Quejas y sugerencias</a></p>
+                    <p><a href="#" class="text-light">Reportar errores</a></p>
+                    <p><a href="#" class="text-light">Formas de pago</a></p>
+                </div>
+                <div class="col-md-6 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Contacto</h5>
+                    <hr class="mb-4 text-primary">
+                    <p style="color: white;"><i class="fas fa-home m-3"></i>León, Guanajuato. México</p>
+                    <p style="color: white;"><i class="fas fa-envelope m-3"></i>guitar@gmail.com</p>
+                    <p style="color: white;"><i class="fas fa-phone m-3"></i>477 890 78 87</p>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-4 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Mapa</h5>
+                    <hr class="mb-4 text-primary">
+                    <div class="text-center">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.785622013856!2d-101.6612489855979!3d21.16154248594438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842be0ce670f2395%3A0x2e5376c6488a5bcb!2sLe%C3%B3n%2C%20Guanajuato%2C%20Mexico!5e0!3m2!1sen!2sus!4v1621642008260!5m2!1sen!2sus"
+                            width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+            <hr class="mb-4 text-primary">
+            <div class="text-center mb-2">
+                <p style="color: white;">&copy; Todos los derechos reservados <a href="#"><strong
+                            class="text-primary">1978-2023</strong></a></p>
+            </div>
+            <div class="text-center">
+                <ul class="list-unstyled list-inline">
+                    <li class="list-inline-item"><a href="https://www.facebook.com/" class="text-light"><i
+                                class="fab fa-facebook-square"></i></a></li>
+                                <li class="list-inline-item"><a href="https://www.twitter.com/" class="text-light"><i
+                                    class="fab fa-twitter-square"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://www.youtube.com/" class="text-light"><i
+                                        class="fab fa-youtube-square"></i></a></li>
+                                        <li class="list-inline-item"><a href="https://www.linkedin.com/" class="text-light"><i
+                                            class="fab fa-linkedin"></i></a></li>
+                                            <li class="list-inline-item"><a href="https://www.messenger.com/" class="text-light"><i
+                                                class="fab fa-facebook-messenger"></i></a></li>     
