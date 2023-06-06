@@ -17,7 +17,7 @@
             </div>
         </header>
         
-        <h1>Iniciar Seción</h1>
+        <h1>Iniciar Sesión</h1>
         <section class="cntform">
 
             <form  method="POST" class="form">

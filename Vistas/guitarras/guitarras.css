@@ -17,11 +17,9 @@ body{
     margin: 0px;
     padding: 0px;
 }
-
 a:hover{
 	color: #b52323;
 }
-
 a{
 	color:white;
 	text-decoration: none;
@@ -29,7 +27,6 @@ a{
     margin-right: 5px;
     margin-left: 5px;
 }
-
 .principal{
     margin: 0px;
     padding: 0px;
