@@ -42,33 +42,74 @@
 
         <div class="cnt-forms">
             <!--FORMULARIO PARA ELIMINAR USUARIOS EN ADMINISTRADOR-->
-            <div id="formula" class="cnt-form">
-                <form id="formulario-elimina" class="formulario">
-                    <!-- Aquí va tu formulario HTML -->
-                    <label for="nombre">INGRESE ID:</label>
-                    <input type="text" id="id" name="id">
+            <div id="formula"  class="cnt-form">
+                <form id="formulario-elimina"  method="POST"  class="formulario">
+                    <?php
+                       require_once '../pruebas/pruEliminar.php';
+                       $elimina = new pruEliminar();
+                       $query = $elimina->elimUsser('eliminar');
+                    ?>
 
-                    <label for="email">INGRESE CORREO:</label>
-                    <input type="email" id="email" name="email">
+                    <div class="name">
+                        <p>ID : </p>
+                        <input type="text" name="id" id="nombre" placeholder="Ingrese su Nombre">
+                    </div>
+                    <div class="apellidoP">
+                        <p>Nombre: </p>
+                        <input type="text" name="nombre" id="ApellidoP" placeholder="Ingrese sus apellidos">
+                    </div>
 
-                    <input type="submit" value="Enviar">
+                    <div id="btnRegister">
+                        <input type="submit" name="eliminar" id="eliminar" value="eliminar">
+                    </div>
                 </form>
 
                 <!--FORMULARIO PARA MODIFICAR USUARIOS EN ADMINISTRADOR-->
-                <form id="formulario-modifica"  class="formulario">
+                <form id="formulario-modifica"  method="POST" class="formulario">
                     <?php
                        require_once '../pruebas/pruModificar.php';
                        $reg = new pruModificar();
-                       $r = $reg->modUsser('modificar');
+                       $r = $reg->modUsser('Modificar');
                    ?>
                     
-                    <label for="nombre">INGRESE ID:</label>
-                    <input type="text" id="id" name="id">
+                    <div class="name">
+                        <p>ID : </p>
+                        <input type="text" name="id" id="id" placeholder="Ingrese su Nombre">
+                    </div>
 
-                    <label for="email">INGRESE CORREO:</label>
-                    <input type="email" id="email" name="email">
+                    <div class="apellidoP">
+                        <p>Nombre: </p>
+                        <input type="text" name="nombre" id="nombre" placeholder="Ingrese sus apellidos">
+                    </div>
 
-                    <input type="submit" name="modificar" value="Enviar">
+                    <div class="apellidoP">
+                        <p>Apellido Paterno: </p>
+                        <input type="text" name="ApellidoP" id="ApellidoP" placeholder="Ingrese sus apellidos">
+                    </div>
+
+                    <div class="apellidoP">
+                        <p>Apellido Materno: </p>
+                        <input type="text" name="ApellidoM" id="ApellidoM" placeholder="Ingrese sus apellidos">
+                    </div>
+
+                    <div class="apellidoP">
+                        <p>Alias: </p>
+                        <input type="text" name="alias" id="alias" placeholder="Ingrese sus apellidos">
+                    </div>
+
+                    <div class="apellidoP">
+                        <p>Correo: </p>
+                        <input type="text" name="Correo" id="email" placeholder="Ingrese sus apellidos">
+                    </div>
+
+                    <div class="apellidoP">
+                        <p>Contraseña: </p>
+                        <input type="password" name="password" id="password" placeholder="Ingrese sus apellidos">
+                    </div>
+
+                    <div id="btnRegister">
+                        <input type="submit" name="Modificar" id="modificar" value="modificar">
+                    </div>
                 </form>
 
 

@@ -27,7 +27,7 @@
 
             <form  method="POST" class="form">
                 <?php
-                    include "../pruebas/pruModificar.php"; 
+                    include_once "../pruebas/pruModificar.php"; 
                     $modUsser = new pruModificar();
                     $mod = $modUsser->modUsser('Modificar');
                 ?>

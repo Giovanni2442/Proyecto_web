@@ -93,32 +93,27 @@ class conectar{
 	}
 
 
-	public function Elimina($alias){
-		//$cnx = $this->conectar();
-		
-		$csql = "delete from usuarios
-				where alias = '" .$alias . "'";
-
+	public function Elimina($id, $name){
 		$cnx = $this->conectar();
-		$resultado = $cnx->query($csql);
+		$csql = "DELETE FROM usuarios WHERE id_usuario = ? AND nombre = ?";
+		
+		$stmt = $cnx->prepare($csql);
+		$stmt->bind_param("ss", $id, $name); // "ss" indica que ambos valores son cadenas (strings)
+		
+		$resultado = $stmt->execute();
+		$stmt->close();
+		
 		return $resultado;
 	}
 	
-	public function Editar($usu){
+	public function Editar($id, $name, $apP, $apM, $als, $email, $pssword){
 		$conex = $this->conectar();
-
-		$name = $usu->getNombre();
-		$apP = $usu->getApellidoP();
-		$apM = $usu->getApellidoM();
-		$alias = $usu->getAlias();
-		$correo = $usu->getCorreo();
-		$pass = $usu->getPassword();
-
-		$csql = "UPDATE usuarios SET nombre = '$name', apellido_P = '$apP', apellido_M = '$apM', correo = '$correo', contrasena = '$pass' WHERE alias = '$alias'";
-
+	
+		$csql = "UPDATE usuarios SET nombre = '$name', apellido_P = '$apP', apellido_M = '$apM', alias = '$als',correo = '$email', contrasena = '$pssword' WHERE id_usuario = '$id'";
+	
 		$resultado = $conex->query($csql);
 		return $resultado;
-	}	
-
+	}
+	
 }
 ?>

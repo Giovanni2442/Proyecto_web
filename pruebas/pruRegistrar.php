@@ -7,7 +7,7 @@ include_once("../pruebas/pruRegistros.php");
 class pruRegistrar{
     
     public function agregarUsser($agrega){
-        
+        echo "HOLAAAAA";
         $pruebas = new pruRegistros();
         if (!empty($_POST[$agrega])) {
             if (
