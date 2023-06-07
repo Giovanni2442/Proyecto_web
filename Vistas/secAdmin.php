@@ -30,7 +30,7 @@
                 <div class="cnt-btns">
                     
                         <div class="btn">
-                            <a href="../Vistas/amplificadores.php">
+                            <a href="../Administradores/AdmUsser.php">
                                 <span>USUARIOS</span>
                             </a>
                            

@@ -53,7 +53,7 @@
                         <div id="usserOptions">
                             <ul>
                                 <li>
-                                    <a href="/pruebas/pruCerrarSecion.php">Cerrar Seción</a>
+                                    <a href="../pruebas/pruCerrarsecion.php">Cerrar Seción</a>
                                 </li>
                                 <li>
                                     <a href="/Vistas/modUsser.php">Configuración</a>

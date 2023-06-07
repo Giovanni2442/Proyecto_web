@@ -6,7 +6,7 @@ class conectar{
 	//Parametros de la conexión a la Base de Datos
 	private $server="localhost";
 	private $usr="root";
-	private $pass="2442";
+	private $pass="261120";
 	private $db="tienda_musica";
     
 	//Funcion para conectar
