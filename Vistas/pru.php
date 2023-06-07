@@ -7,21 +7,84 @@
     <title>Document</title>
 </head>
 <body>
-<form id="formulario-elimina" class="formulario">
+<button onclick="mostrarModal('modal')">Ingresar</button>
+
+<div id="modal" class="modal">
+    <div class="modal-contenido">
+        <span class="cerrar" onclick="cerrarModal()">&times;</span>
+        <h2>Eliminar</h2>
+        <p>¿Estás seguro de que deseas eliminar?</p>
+        <form id="formulario-elimina" method="POST" class="formulario">
                     <?php
-                       require_once '../pruebas/pruEliminar.php';
-                       $conect = new conectar();
-                       $reg = new pruEliminar();
-                       $r = $reg->elimUsser('eliminar');
+                    require_once '../pruebas/pruEliminar.php';
+                    $elimina = new pruEliminar();
+                    $query = $elimina->elimUsser('eliminar');
                     ?>
 
-                    <label for="nombre">INGRESE ID:</label>
-                    <input type="text" name="id" id="id">
+                    <div class="name">
+                        <p>ID : </p>
+                        <input type="text" name="id" id="nombre" placeholder="Ingrese su Nombre">
+                    </div>
+                    <div class="apellidoP">
+                        <p>Nombre: </p>
+                        <input type="text" name="nombre" id="ApellidoP" placeholder="Ingrese sus apellidos">
+                    </div>
 
-                    <label for="email">INGRESE EL NOMBRE:</label>
-                    <input type="text" name="name" id="name" >
-
-                    <input type="submit" name ="eliminar" value="Enviar">
+                    <div id="btnRegister">
+                        <input type="submit" name="eliminar" id="eliminar" value="eliminar">
+                    </div>
                 </form>
-    </body>
+    </div>
+</div>
+
+<style>
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    .modal-contenido {
+        background-color: #fefefe;
+        margin: 10% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+    }
+
+    .cerrar {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .cerrar:hover,
+    .cerrar:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+</style>
+
+<script>
+    function mostrarModal(modalId) {
+        var modal = document.getElementById(modalId);
+        modal.style.display = 'block';
+    }
+
+    function cerrarModal() {
+        var modal = document.getElementById('modal');
+        modal.style.display = 'none';
+    }
+</script>
+
+</body>
 </html>

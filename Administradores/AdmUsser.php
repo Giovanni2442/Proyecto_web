@@ -13,7 +13,7 @@
 <body>
     <header class="header">
         <div class="Inicio">
-            <a href="Index.php">
+            <a href="../Vistas/Index.php">
                 <img src="/Vistas/ImgIndex/Inicio.png">
             </a>
         </div>
@@ -39,6 +39,7 @@
                 <span>INGRESAR</span>
             </button>
         </div>
+        
 
         <div class="cnt-forms">
             <!--FORMULARIO PARA ELIMINAR USUARIOS EN ADMINISTRADOR-->
@@ -165,8 +166,11 @@
                 <tr>
                     <th>ID</th>
                     <th>Nombre</th>
-                    <th>Apellido</th>
+                    <th>Apellido Paterno</th>
+                    <th>Apellido Materno</th>
+                    <th>Alias</th>
                     <th>Email</th>
+                    <th>Constraseña</th>
                 </tr>
                 <?php
                 // Mostrar los registros en la tabla
@@ -176,7 +180,10 @@
                         echo "<td>" . $row["id_usuario"] . "</td>";
                         echo "<td>" . $row["nombre"] . "</td>";
                         echo "<td>" . $row["apellido_p"] . "</td>";
+                        echo "<td>" . $row["apellido_m"] . "</td>";
+                        echo "<td>" . $row["alias"] . "</td>";
                         echo "<td>" . $row["correo"] . "</td>";
+                        echo "<td>" . $row["contrasena"] . "</td>";
                         echo "</tr>";
                     }
                 } else {
