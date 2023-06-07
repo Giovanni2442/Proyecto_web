@@ -10,7 +10,11 @@ function eliminarRegistro($id) {
     }
 
     // Preparar la consulta para eliminar el registro
+<<<<<<< HEAD
+    $query = "UPDATE exitencias SET cantidad = cantidad -1 WHERE id_producto = $id";
+=======
     $query = "DELETE FROM tabla WHERE id = ?";
+>>>>>>> 76f25049b27c3acb085913ae2017c62d6ddf39e1
     $statement = mysqli_prepare($conexion, $query);
 
     // Vincular el parámetro de ID a la consulta preparada

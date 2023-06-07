@@ -157,6 +157,8 @@
                                         <li>
                                             <span>
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 
                                                 <a href="seccionBajos/accesorios.html">ACCESORIÓS</a>
                                             </span>
@@ -168,6 +170,9 @@
 
                                                 <a href="seccionBajos/accesorios.html">ACCESORIÓS</a>
 
+>>>>>>> 6af3d7e7b0e8808223874d63cff4da5e96b0d31d
+>>>>>>> e63e5c5b4fe809c8388fe14618a30c2727ea8b73
+>>>>>>> 76f25049b27c3acb085913ae2017c62d6ddf39e1
                                                 <a href="/proyecto/Proyecto_web/Vistas/guitarras/Accesorios.html">ACCESORIÓS</a>
                                             </span>
                                         </li>
@@ -206,6 +211,11 @@
                                             </span>
                                         </li>
 =======
+<<<<<<< HEAD
+                                                <a href="/proyecto/Proyecto_web/Vistas/seccionBajos/amplificadores.html">AMPLIFICADORES</a>
+                                            </span>
+                                        </li>
+=======
 
                                                 <a href="seccionBajos/accesorios.html">ACCESORIOS</a>
                                             </span>
@@ -224,6 +234,8 @@
                                             </span>
                                         </li>
 
+>>>>>>> 6af3d7e7b0e8808223874d63cff4da5e96b0d31d
+>>>>>>> e63e5c5b4fe809c8388fe14618a30c2727ea8b73
                                     </ul>
                                 </div>
 
@@ -255,13 +267,20 @@
                                                 <a href="seccionBajos/pedaleras.html">PEDALERAS</a>
                                             </span>
                                         </li>
-
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> e63e5c5b4fe809c8388fe14618a30c2727ea8b73
                                         <li>
                                             <span>
                                                 <a href="seccionBajos/accesorios.html">ACCESORIOS</a>
                                             </span>
                                         </li>
-
+<<<<<<< HEAD
+=======
+>>>>>>> 6af3d7e7b0e8808223874d63cff4da5e96b0d31d
+>>>>>>> e63e5c5b4fe809c8388fe14618a30c2727ea8b73
                                     </ul>
                                 </div>
 
@@ -385,6 +404,15 @@
                     <div class="carousel-item">
                     <img src="ImgIndex/Drums.jpg" class="d-block w-100" alt="...">
                     </div>
+                    <div class="carousel-item">
+                        <img src="ImgIndex/acdc.jpg" class="d-block w-100" alt="...">
+                    </div>
+<<<<<<< HEAD
+=======
+                    <div class="carousel-item">
+                        <img src="ImgIndex/acdc.jpg" class="d-block w-100" alt="...">
+                    </div>
+>>>>>>> 7af51ba62645a110dcb6bca9d7faf33308e1ad8d
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -531,6 +559,15 @@
                     <div class="carousel-item">
                         <img src="ImgIndex/Drums.jpg" class="d-block w-100" alt="...">
                     </div>
+                    <div class="carousel-item">
+                        <img src="ImgIndex/acdc.jpg" class="d-block w-100" alt="...">
+                    </div>
+<<<<<<< HEAD
+=======
+                    <div class="carousel-item">
+                        <img src="ImgIndex/acdc.jpg" class="d-block w-100" alt="...">
+                    </div>
+>>>>>>> 7af51ba62645a110dcb6bca9d7faf33308e1ad8d
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -714,6 +751,22 @@
         </section>
 
         <div id="separador-Audio"></div>
+<<<<<<< HEAD
+        <footer class="bg-black">
+        <div class="container text-center text-md-start">
+            <div class="row">
+                <div class="col-md-12 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Nosotros</h5>
+                    <hr class="mb-4 text-primary">
+                    <p style="color: white;">
+                        Tienda donde ofrecemos una amplia variedad de guitarras,
+                        desde clásicas y acústicas hasta eléctricas y de jazz.
+                        Desde los Marzo del 78 cautivando a musicos en mejorar sus
+                        instrumentos tienda especializada en guitarras vintage y únicas,
+                        contamos con una trayectoria historica de décadas pasadas.
+                        Compartía con entusiasmo los detalles y curiosidades con clientes.
+                    </p>
+=======
         <footer>
             <div class="inf-pgn">
                 <div id="ttl-mnu-prin">
@@ -721,7 +774,7 @@
                     <ul>
                         <li>
                             <span>
-                               <a href="#">GUITARRAS</a>
+                               <a href="#">GUITARRAS ELEC</a>
                             </span>
                         </li>
 
@@ -756,17 +809,41 @@
                         Peruciones
                         Audio
                         Accesorios-->
+>>>>>>> 76f25049b27c3acb085913ae2017c62d6ddf39e1
                 </div>
-
-                <div id="ttl-mnu-prin">
-                   <!-- <span>SUCURSAL</span> -->
-                    <!--Agregar Lista
-                        Guitarras
-                        Bajos
-                        Peruciones
-                        Audio
-                        Accesorios-->
+                <div class="col-md-6 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Ayuda</h5>
+                    <hr class="mb-4 text-primary">
+                    <p><a href="#" class="text-light">Envio</a></p>
+                    <p><a href="#" class="text-light">Devolución</a></p>
+                    <p><a href="#" class="text-light">Reembolso</a></p>
+                    <p><a href="#" class="text-light">Rastrear Pedido</a></p>
                 </div>
+<<<<<<< HEAD
+                <div class="col-md-6 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Servicio Cliente</h5>
+                    <hr class="mb-4 text-primary">
+                    <p><a href="#" class="text-light">Bolsa de empleo</a></p>
+                    <p><a href="#" class="text-light">Quejas y sugerencias</a></p>
+                    <p><a href="#" class="text-light">Reportar errores</a></p>
+                    <p><a href="#" class="text-light">Formas de pago</a></p>
+                </div>
+                <div class="col-md-6 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Contacto</h5>
+                    <hr class="mb-4 text-primary">
+                    <p style="color: white;"><i class="fas fa-home m-3"></i>León, Guanajuato. México</p>
+                    <p style="color: white;"><i class="fas fa-envelope m-3"></i>guitar@gmail.com</p>
+                    <p style="color: white;"><i class="fas fa-phone m-3"></i>477 890 78 87</p>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-4 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Mapa</h5>
+                    <hr class="mb-4 text-primary">
+                    <div class="text-center">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.785622013856!2d-101.6612489855979!3d21.16154248594438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842be0ce670f2395%3A0x2e5376c6488a5bcb!2sLe%C3%B3n%2C%20Guanajuato%2C%20Mexico!5e0!3m2!1sen!2sus!4v1621642008260!5m2!1sen!2sus"
+                            width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+=======
             
                 <div id="ttl-mnu-prin">
                    <!-- <span>CONTACTO</span> -->
@@ -794,15 +871,36 @@
                         Peruciones
                         Audio
                         Accesorios-->
+>>>>>>> 76f25049b27c3acb085913ae2017c62d6ddf39e1
                 </div>
-
-                <div id='tlt-'></div>
             </div>
-
-            <div class = "cotc-mnu">
-                <span><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2002.444701062882!2d-101.62910665467122!3d21.109049238113272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbe6f8e8cdbf7%3A0xff3c8cc2b5af98fc!2sInstituto%20Tecnol%C3%B3gico%20de%20Le%C3%B3n!5e0!3m2!1ses!2smx!4v1684703937941!5m2!1ses!2smx" width="500" height="270" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></span>
+            <hr class="mb-4 text-primary">
+            <div class="text-center mb-2">
+                <p style="color: white;">&copy; Todos los derechos reservados <a href="#"><strong
+                            class="text-primary">1978-2023</strong></a></p>
             </div>
+<<<<<<< HEAD
+            <div class="text-center">
+                <ul class="list-unstyled list-inline">
+                    <li class="list-inline-item"><a href="https://www.facebook.com/" class="text-light"><i
+                                class="fab fa-facebook-square"></i></a></li>
+                                <li class="list-inline-item"><a href="https://www.twitter.com/" class="text-light"><i
+                                    class="fab fa-twitter-square"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://www.youtube.com/" class="text-light"><i
+                                        class="fab fa-youtube-square"></i></a></li>
+                                        <li class="list-inline-item"><a href="https://www.linkedin.com/" class="text-light"><i
+                                            class="fab fa-linkedin"></i></a></li>
+                                            <li class="list-inline-item"><a href="https://www.messenger.com/" class="text-light"><i
+                                                class="fab fa-facebook-messenger"></i></a></li>            
+                </ul>
+            
+            </div>
+            
+        </div>
+    </footer>
+=======
         </footer>
+>>>>>>> 76f25049b27c3acb085913ae2017c62d6ddf39e1
 
     </div>
     <Script src="../Scripts/carrucelAuto.js"></Script>
