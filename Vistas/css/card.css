@@ -1,0 +1,37 @@
+
+
+  .img{
+    background-size: cover;
+    height: 100%;
+    border: 20px;
+    width: auto;
+    position: relative;
+    padding: 20px;
+  }
+
+.containerM{
+  width: 50%;
+  float: right;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.poste{
+    width: 350px;
+    height: 350px;
+    float: right;
+    
+}
+
+.containerF{
+width: 70%;
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+}
+.ml-4{
+margin-left: 1.5rem!important;
+}

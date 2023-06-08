@@ -10,7 +10,8 @@ html{
 }
 
 body{
-    background-color: rgb(red, rgb(140, 198, 140), blue);
+    color: white;
+    background-color: wheat;
     margin: 0px;
     padding: 0px;
 }
@@ -18,7 +19,11 @@ body{
 a:hover{
 	color: #b52323;
 }
-
+.principal{
+    color-scheme: black;
+    color: black;
+    background-color: black;
+}
 a{
 	color:white;
 	text-decoration: none;
@@ -36,7 +41,7 @@ a{
 }
 
     .header{
-        background-color: #c6ee8259;
+        background-color: black;
         height: 10%;
     }
         .usuario{

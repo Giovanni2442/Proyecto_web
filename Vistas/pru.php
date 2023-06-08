@@ -14,8 +14,6 @@
         <span class="cerrar" onclick="cerrarModal()">&times;</span>
         <h2>Eliminar</h2>
         <p>¿Estás seguro de que deseas eliminar?</p>
-
-        <div><span>MODIFICACIÓN</span></div>
         <form id="formulario-elimina" method="POST" class="formulario">
                     <?php
                     require_once '../pruebas/pruEliminar.php';

@@ -654,7 +654,7 @@ a{
                 border: 2px solid yellow;
             }
     .Quinto{
-        border: 2px solid red;
+        border: 2px solid black;
         height: auto;
         margin: 0px;
         display: flex;
@@ -737,7 +737,7 @@ footer{
 
 }
     .inf-pgn{
-        border: 1px solid red;
+
         width: 60%;
         display: flex;
         height: auto;
