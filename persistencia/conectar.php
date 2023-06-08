@@ -6,7 +6,7 @@ class conectar{
 	//Parametros de la conexión a la Base de Datos
 	private $server="localhost";
 	private $usr="root";
-	private $pass="261120";
+	private $pass="Emma2412";
 	private $db="tienda_musica";
     
 	//Funcion para conectar
@@ -67,7 +67,7 @@ class conectar{
 				$usser->setApellidoP($fila["apellido_p"]);
 				$usser->setApellidoM($fila["apellido_m"]);
 				$usser->setCorreo($fila["correo"]);
-				$usser->setAlias($fila["alias"]);
+				$usser->setEdad($fila["edad"]);
 				$usser->setPassword($fila["contrasena"]);
 			}
 			return $usser;
@@ -81,12 +81,12 @@ class conectar{
 		$nombre = $usu->getNombre();
 		$apP = $usu->getApellidoP();
 		$apM = $usu->getApellidoM();
-		$alias = $usu->getAlias();
+		$edad = $usu->getEdad();
 		$correo = $usu->getCorreo();
 		$pass = $usu->getPassword();
 	
-		$csql = "INSERT INTO usuarios(nombre, apellido_P, apellido_M, alias, correo, contrasena)
-		 VALUES ('$nombre', '$apP','$apM', '$alias','$correo','$pass')";
+		$csql = "INSERT INTO usuarios(nombre, apellido_P, apellido_M, correo, contrasena, edad)
+		 VALUES ('$nombre', '$apP','$apM','$correo','$pass','$edad')";
 	
 		$resultado = $cnx->query($csql);
 		return $resultado;
@@ -106,10 +106,10 @@ class conectar{
 		return $resultado;
 	}
 	
-	public function Editar($id, $name, $apP, $apM, $als, $email, $pssword){
+	public function Editar($id, $name, $apP, $apM, $eda, $email, $pssword){
 		$conex = $this->conectar();
 	
-		$csql = "UPDATE usuarios SET nombre = '$name', apellido_P = '$apP', apellido_M = '$apM', alias = '$als',correo = '$email', contrasena = '$pssword' WHERE id_usuario = '$id'";
+		$csql = "UPDATE usuarios SET nombre = '$name', apellido_P = '$apP', apellido_M = '$apM', edad = '$eda',correo = '$email', contrasena = '$pssword' WHERE id_usuario = '$id'";
 	
 		$resultado = $conex->query($csql);
 		return $resultado;

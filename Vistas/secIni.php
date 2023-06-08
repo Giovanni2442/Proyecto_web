@@ -11,6 +11,7 @@ include("../persistencia/secion.php");
     <link rel="stylesheet" href="css/card.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -340,29 +341,25 @@ include("../persistencia/secion.php");
                     <div class="row justify-content-center">
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                             <img src="img/22.jpg" alt="Sucursal" class="img-responsive img-rounded">
-                            <h3 class="text-center" style="color: white">Thumbnail label</h3>
+                            <h3 class="text-center" style="color: white">YAMAHA PIANO VERTICAL CON BANCO NEGRO JU109PE</h3>
                             <p class="text-center" style="color: white">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit possimus tempore sint
-                                impedit cum.
+                            Un excelente ejemplo de belleza natural, el modelo JU109 es una combinación exquisita de fabricación y tecnología de Yamaha que hacen de él un instrumento perfectamente asequible y que tocarlo sea un placer.
                             </p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                             <img src="img/25.jpg" alt="Sucursal" class="img-responsive img-rounded">
-                            <h3 class="text-center" style="color: white">Thumbnail label</h3>
+                            <h3 class="text-center" style="color: white">CP8 QSC ALTAVOZ AMPLIFICADO</h3>
                             <p class="text-center" style="color: white">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit possimus tempore sint
-                                impedit cum.
+                            CP8 Altavoz amplificado compacto de 8 pulgadas
                             </p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                             <img src="img/24.jpg" alt="Sucursal" class="img-responsive img-rounded">
-                            <h3 class="text-center" style="color: white"> Thumbnail label</h3>
+                            <h3 class="text-center" style="color: white">FENDER GUITARRA ELÉCTRICA TELECASTER SIGNATURE JAMES BURTON 01086602888</h3>
                             <p class="text-center" style="color: white">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit possimus tempore sint
-                                impedit cum.
-                            </p>
+                            GUITARRA ELECTRICA FENDER JAMES BURTON                            </p>
                         </div>
 
 
@@ -379,26 +376,23 @@ include("../persistencia/secion.php");
                     <div class="row justify-content-center">
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                             <img src="img/2.jpg" alt="Sucursal" class="img-responsive img-rounded">
-                            <h3 class="text-center" style="color: white">Thumbnail label</h3>
+                            <h3 class="text-center" style="color: white">MPML3600CNL</h3>
                             <p class="text-center" style="color: white">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit possimus tempore sint
-                                impedit cum.
+                            Tarola 13 x 6, Maple Gloss Natural
                             </p>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                             <img src="img/6.jpg" alt="Sucursal" class="img-responsive img-rounded">
-                            <h3 class="text-center" style="color: white">Thumbnail label</h3>
+                            <h3 class="text-center" style="color: white">BST134BK</h3>
                             <p class="text-center" style="color: white">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit possimus tempore sint
-                                impedit cum.
+                            Tarola Tama 13 X 4 Bst134bk Metalworks Negra Acero
                             </p>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                             <img src="img/10.jpg" alt="Sucursal" class="img-responsive img-rounded">
-                            <h3 class="text-center" style="color: white">Thumbnail label</h3>
+                            <h3 class="text-center" style="color: white">GRETSCH BATERÍA ACÚSTICA DE 5 PIEZAS ENERGY 22 4E825</h3>
                             <p class="text-center" style="color: white">
-                                Lorem ipsum dolor sit amt, consectetur adipisicing elit. Fugit possimus tempore sint
-                                impedit cum.
+                            Batería acústica de 5 piezas, incluye bombo de 22" x 18", tarola de 14" x 5.5", tom de aire de 10” x 7”, tom de aire de 12" x 8" y tom de piso de 16” x 16”, fabricada con 7 capas de madera poplar, hardware cromado, aros triple flanged de 1.6 mm, bordes redondeados de 30 grados, incluye hardware (pedal de bombo, atril para hi-hats, atril de tarola, atril de platillo recto y atril de platillo con boom).
                             </p>
                         </div>
 
@@ -415,27 +409,24 @@ include("../persistencia/secion.php");
                     <div class="row justify-content-center">
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                             <img src="img/13.jpg" alt="Sucursal" class="img-responsive img-rounded">
-                            <h3 class="text-center" style="color: white">Thumbnail label</h3>
+                            <h3 class="text-center" style="color: white">GRETSCH GUITARRA ELÉCTRICA G2420 STREAMLINER™ 2804700569</h3>
                             <p class="text-center" style="color: white">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit possimus tempore sint
-                                impedit cum.
+                            Grande, audaz y recto, el G2420 Streamliner ™ Hollow Body Single-Cut con Chromatic II está diseñado para el guitarrista moderno que anhela algo más allá de la norma. Una guitarra imponente para músicos poderosos, el sonido moderno, la electrónica actualizada y el estilo auténticamente elegante de la G2420 crean la última versión de That Great Gretsch Sound! 
                             </p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                             <img src="img/12.jpg" alt="Sucursal" class="img-responsive img-rounded">
-                            <h3 class="text-center" style="color: white">Thumbnail label</h3>
+                            <h3 class="text-center" style="color: white">GRETSCH GUITARRA ELÉCTRICA G2410TG STREAMLINER™ HOLLOW BODY SINGLE-CUT WITH BIGSBY® AND GOLD HARDWARE 2804800508</h3>
                             <p class="text-center" style="color: white">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit possimus tempore sint
-                                impedit cum.
+                            Grande, audaz y recto, el G2410TG Streamliner™ Hollow Body Single-Cut con Bigsby® y herrajes dorados está diseñado para el guitarrista moderno que anhela algo más allá de la norma. Una guitarra dominante para guitarristas poderosos, los sonidos modernos, el cuerpo de arce más delgado, la electrónica actualizada y el estilo auténticamente elegante de la G2410TG crean la última versión de That Great Gretsch® Sound!
                             </p>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                             <img src="img/99.jpg" alt="Sucursal" class="img-responsive img-rounded">
-                            <h3 class="text-center" style="color: white">Thumbnail label</h3>
+                            <h3 class="text-center" style="color: white">FENDER SQUIER GUITARRA ELÉCTRICA STRATOCASTER CONTEMPORARY ZURDA 0320229565</h3>
                             <p class="text-center" style="color: white">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit possimus tempore sint
-                                impedit cum.
+                            El Squier Contemporáneo Stratocaster HH es una opción excelente para el jugador moderno que busca características progresivas en una guitarra que tiene auténtico vibo y estilo.
                             </p>
                         </div>
                     </div>
@@ -444,31 +435,28 @@ include("../persistencia/secion.php");
 
 
             <section class="full-width formated-section">
-            <h2 class="text-center font-oswald" style="color: white">Guitarras</h2><br>
+            <h2 class="text-center font-oswald" style="color: white">Trompetas</h2><br>
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                             <img src="img/8.jpg" alt="Sucursal" class="img-responsive img-rounded">
-                            <h3 class="text-center" style="color: white">Thumbnail label</h3>
+                            <h3 class="text-center" style="color: white">JUPITER TROMPETA Bb LAQUEADA JTR500</h3>
                             <p class="text-center" style="color: white">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit possimus tempore sint
-                                impedit cum.
+                            Trompeta Jupiter en tono de Bb, cuerpo de Latón Lacado, campana de 4.8 ", tercera válvula deslizable, tubo de .460" de diámetro, sillín de pulgar deslizante en la primera válvula, incluye estuche rígido.
                             </p>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                             <img src="img/20.jpg" alt="Sucursal" class="img-responsive img-rounded">
-                            <h3 class="text-center" style="color: white">Thumbnail label</h3>
+                            <h3 class="text-center" style="color: white">YAMAHA TROMPETA BB YTR5330MRC</h3>
                             <p class="text-center" style="color: white">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit possimus tempore sint
-                                impedit cum.
+                            Trompeta Yamaha intermedia modelo Mariachi, combinada color plata/dorado en tono de B, pabellón de 2 piezas en bronce amarillo, incluye boquilla TR-11B4 y funda de transporte.
                             </p>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                             <img src="img/21.jpg" alt="Sucursal" class="img-responsive img-rounded">
-                            <h3 class="text-center" style="color: white">Thumbnail label</h3>
+                            <h3 class="text-center" style="color: white">YAMAHA TROMPETA YAMAHA BB CUSTOM LIGERA YTR8310Z//3</h3>
                             <p class="text-center" style="color: white">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit possimus tempore sint
-                                impedit cum.
+                            El Z nació de la larga y cercana asociación de Yamaha con el legendario trompetista Bobby Shew. Un músico increíblemente versátil, Shew necesitaba un instrumento eficiente que pudiera gritar un poderoso plomo y tocar baladas suaves y suaves. Con la Z,
                             </p>
                         </div>
 
@@ -476,31 +464,28 @@ include("../persistencia/secion.php");
                 </div>
             </section>
             <section class="full-width formated-section">
-            <h2 class="text-center font-oswald" style="color: white">Guitarras</h2><br>
+            <h2 class="text-center font-oswald" style="color: white">Bocinas</h2><br>
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                             <img src="img/1.jpg" alt="Sucursal" class="img-responsive img-rounded">
-                            <h3 class="text-center" style="color: white">Thumbnail label</h3>
+                            <h3 class="text-center" style="color: white">BEHRINGER BAFLE B212D</h3>
                             <p class="text-center" style="color: white">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit possimus tempore sint
-                                impedit cum.
+                            Sistema activo de altavoces PA de 2 vías y 550 vatios con woofer de 12 "y controlador de compresión de 1.35"
                             </p>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                             <img src="img/14.jpg" alt="Sucursal" class="img-responsive img-rounded">
-                            <h3 class="text-center" style="color: white">Thumbnail label</h3>
+                            <h3 class="text-center" style="color: white">YAMAHA BAFLE PASIVO DE 12" 300W RMS BR12</h3>
                             <p class="text-center" style="color: white">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit possimus tempore sint
-                                impedit cum.
+                            El potente sonido de la serie Club V en altavoces increíblemente asequibles.
                             </p>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                             <img src="img/16.jpg" alt="Sucursal" class="img-responsive img-rounded">
-                            <h3 class="text-center" style="color: white">Thumbnail label</h3>
+                            <h3 class="text-center" style="color: white">BEHRINGER BAFLE B212XL</h3>
                             <p class="text-center" style="color: white">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit possimus tempore sint
-                                impedit cum.
+                            Sistema de altavoces PA de 2 vías y 800 vatios con woofer de 12 "y controlador de compresión de titanio de 1.75"
                             </p>
                         </div>
 
@@ -513,26 +498,23 @@ include("../persistencia/secion.php");
                     <div class="row justify-content-center">
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                             <img src="img/3.jpg" alt="Sucursal" class="img-responsive img-rounded">
-                            <h3 class="text-center" style="color: white">Thumbnail label</h3>
+                            <h3 class="text-center" style="color: white">FENDER GUITARRA ACUSTICA DG8S NATURAL PACK 0950801121</h3>
                             <p class="text-center" style="color: white">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit possimus tempore sint
-                                impedit cum.
+                            GUITARRA ACÚSTICA DG8S NATURAL PACK
                             </p>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                             <img src="img/4.jpg" alt="Sucursal" class="img-responsive img-rounded">
-                            <h3 class="text-center" style="color: white">Thumbnail label</h3>
+                            <h3 class="text-center" style="color: white">FENDER GUITARRA ACÚSTICA CT60S BLACK 0961713006</h3>
                             <p class="text-center" style="color: white">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit possimus tempore sint
-                                impedit cum.
+                            GUITARRA FENDER CT 60S BLK
                             </p>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                             <img src="img/9.jpg" alt="Sucursal" class="img-responsive img-rounded">
-                            <h3 class="text-center" style="color: white">Thumbnail label</h3>
+                            <h3 class="text-center" style="color: white">FENDER GUITARRA ACÚSTICA CD-100 ZURDA 0961534021</h3>
                             <p class="text-center" style="color: white">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit possimus tempore sint
-                                impedit cum.
+                            Miles de guitarristas han elegido la CD100 como su "primera acústica de verdad" por una sencilla razón: su combinación de calidad y excelente valor la convierten en perfecta si buscas una guitarra de cómodo acabado satinado por un precio asequible
                             </p>
                         </div>
 
@@ -540,7 +522,7 @@ include("../persistencia/secion.php");
                 </div>
             </section>
 
-            <section class="full-width formated-section">
+            <!--<section class="full-width formated-section">
             <h2 class="text-center font-oswald" style="color: white">Guitarras</h2><br>
                 <div class="container">
                     <div class="row justify-content-center">
@@ -570,7 +552,7 @@ include("../persistencia/secion.php");
                         </div>
 
                     </div>
-                </div>
+                </div>-->
             
                 <hr class="mb-4 text-primary">
                 <footer class="bg-black">
@@ -645,8 +627,10 @@ include("../persistencia/secion.php");
 
                     </div>
                 </footer>
+                <script src="../Scripts/busqueda.js"></script> 
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                <script src="../Scripts/animacion.js"></script>
+
 
 </body>
-
-
 </html>

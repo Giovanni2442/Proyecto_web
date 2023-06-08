@@ -26,11 +26,11 @@ class pruRegistros{
         }
     }
 
-    public function update2($id,$name,$apP,$apM,$als,$email,$pss){
+    public function update2($id,$name,$apP,$apM,$eda,$email,$pss){
         $con = new conectar();
         echo "Conectado";
         if($con){
-            $rest = $con->Editar($id,$name,$apP,$apM,$als,$email,$pss);
+            $rest = $con->Editar($id,$name,$apP,$apM,$eda,$email,$pss);
             if($rest){
                 echo "<div>Usuario Actualizado</div>";
             }else{
@@ -42,7 +42,7 @@ class pruRegistros{
         }
     }
 
-    public function update($name,$als,$apP,$apM,$email,$pss){
+    public function update($name,$eda,$apP,$apM,$email,$pss){
         $conex = new conectar();
         
         echo $conex;
@@ -54,10 +54,10 @@ class pruRegistros{
             $usu->setApellidoP($apP);
             $usu->setApellidoM($apM);
             $usu->setCorreo($email);
-            $usu->setAlias($als);
+            $usu->setEdad($eda);
             $usu->setPassword($pss);
 
-            $result = $conex->Editar($usu,$name,$als,$apP,$apM,$email,$pss);
+            $result = $conex->Editar($usu,$name,$eda,$apP,$apM,$email,$pss);
             echo "-->".$result;
             if($result){
                 echo "Se pud0";
@@ -71,7 +71,7 @@ class pruRegistros{
         }
     }
 
-    public function add($nombre,$apellidoP,$apellidoM,$alias,$Correo,$pss){
+    public function add($nombre,$apellidoP,$apellidoM,$edad,$Correo,$pss){
         $con = new conectar();
         echo "JIJIJII";
         if($con){
@@ -84,7 +84,7 @@ class pruRegistros{
             $usu->setNombre($nombre);
             $usu->setApellidoP($apellidoP);
             $usu->setApellidoM($apellidoM);
-            $usu->setAlias($alias);
+            $usu->setEdad($edad);
             $usu->setCorreo($Correo);
             $usu->setPassword($pss);
             
@@ -128,7 +128,7 @@ class pruRegistros{
             $_SESSION["name"] = $consultar->getNombre();
             $_SESSION["paterno"] = $consultar->getApellidoP();
             $_SESSION["materno"] = $consultar->getApellidoM();
-            $_SESSION["alias"] = $consultar->getAlias();
+            $_SESSION["edad"] = $consultar->getEdad();
             $_SESSION["email"] = $consultar->getCorreo();
             $_SESSION["pass"] = $consultar->getPassword();
     

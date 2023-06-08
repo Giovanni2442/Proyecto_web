@@ -4,7 +4,7 @@ class clase_usuario{
     private $nombre_str;
     private $apellidoP_str;
     private $apellidoM_str;
-    private $alias_str;
+    private $edad;
     private $correo_str;
     private $password_str;
 
@@ -20,8 +20,8 @@ class clase_usuario{
         $this->apellidoM_str = $apellidoM;
     }
 
-    public function setAlias($alias){
-        $this->alias_str = $alias;
+    public function setEdad($edad){
+        $this->edad = $edad;
     }
 
     public function setCorreo($Correo){
@@ -45,8 +45,8 @@ class clase_usuario{
         return $this->apellidoM_str;
     }
 
-    public function getAlias(){
-        return $this->alias_str;
+    public function getEdad(){
+        return $this->edad;
     }
 
     public function getCorreo(){
